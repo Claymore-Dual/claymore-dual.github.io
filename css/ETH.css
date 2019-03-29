@@ -37,7 +37,7 @@ margin:0;
  .eth-menu .last.leaf {
 border-right: 1px solid #737572;
 }
-#page-wrapper {height: 100%;}
+#page-wrapper {height: 100%;overflow: hidden;}
 
 .eth-header {
 position:relative;
