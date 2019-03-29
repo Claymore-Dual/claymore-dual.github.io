@@ -327,7 +327,9 @@ background-color:#fff;
 padding:70px 0;
 }
 
-.eth-comm {}
+.eth-comm {
+    background-color: white;
+}
 
 
 .eth-foot {
