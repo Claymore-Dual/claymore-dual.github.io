@@ -378,6 +378,7 @@ min-height: 380px;
  
 .eth-header-flex {
 /* top: 62px; */
+    min-height: 471px;
 }
 .eth-gpu {
     min-height: 422px;
