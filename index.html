@@ -106,17 +106,17 @@ The watchdog timer checks periodically if any of the GPUs freezes and if it does
 		In the folder that contains the miner, you should create a file with .bat extension. You can do this in any text editor (for example, Notepad). When you save the file, it’s important to choose ‘All Files’ as a file type, not ‘txt’. Otherwise, you’ll have .bat.txt at the end of the file name, and miner won’t be able to open this file. Your bat file (let’s say it’s called test.bat) should contain the following text (Step 2):
 		</div>
 			<p class="eth-attention">Attention! For security reasons, Windows may stop you from opening the bat file. In this case, you should permit it to open in the pop-up window.</p>
-			<p class="eth-st">Step 2: Review a batch file for starting PhoenixMiner</p>
+			<p class="eth-st">Step 2: Review a batch file for starting Claymore Dual Miner</p>
 		<div class="eth-row">
 <pre><code><span class="nev2">setx GPU_FORCE_64BIT_PTR 0
 setx GPU_MAX_HEAP_SIZE 100
 setx GPU_USE_SYNC_OBJECTS 1
 setx GPU_MAX_ALLOC_PERCENT 100
 setx GPU_SINGLE_ALLOC_PERCENT 100</span>
-PhoenixMiner.exe -epool eu1.ethermine.org:4444 -eworker <span class="eth-grn">YOUR_RIG_NAME</span> -ewal <span class="eth-grn">YOUR_WALLET ADDRESS</span> -epsw x</code></pre>
+EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -eworker <span class="eth-grn">YOUR_RIG_NAME</span> -ewal <span class="eth-grn">YOUR_WALLET ADDRESS</span> -epsw x</code></pre>
 		</div>
 		<p class="eth-st">Step 3: Configure the miner with your settings</p>
-		<div class="eth-row"><span class="eth-grn">WALLET_ADDRESS</span> - enter <span class="eth-grn">YOUR</span> Ethereum wallet address (this is how PhoenixMiner knows where to deposit your ether)
+		<div class="eth-row"><span class="eth-grn">WALLET_ADDRESS</span> - enter <span class="eth-grn">YOUR</span> Ethereum wallet address (this is how Claymore Miner knows where to deposit your ether)
 
 		<span class="eth-grn">RIG_NAME</span> – you can choose any name (like test), but don’t exaggerate: it should be 32 symbols max, contain only letters and numbers (no special characters like $%»*;@).
 		</div>
@@ -239,10 +239,10 @@ PhoenixMiner.exe -epool eu1.ethermine.org:4444 -eworker <span class="eth-grn">YO
 </section>
 <section class="eth-post-foot clearfix">
 	<div class="eth-vi2">
-		<div class="nev3 eth-left">Note, when downloading the Claymore Miner, Windows may issue a warning, but if you used PhoenixMiner download link you can ignore this.
+		<div class="nev3 eth-left">Note, when downloading the Claymore Miner, Windows may issue a warning, but if you used Claymore Dual Miner download link you can ignore this.
 		</div>
 
-		<div class="nev3 eth-right">Disclaimer: This isn't an official PhoenixMiners site.  No binary files were affected.
+		<div class="nev3 eth-right">Disclaimer: This isn't an official Claymores site.  No binary files were affected.
 
 		All rights belong to their respective owners. © 2018-2019
 		</div>
