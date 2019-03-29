@@ -375,8 +375,9 @@ font-size: 225%;
 .eth-header {	
 min-height: 380px;
 }	
+ 
 .eth-header-flex {
-top: 62px;
+/* top: 62px; */
 }
 .eth-gpu {
     min-height: 422px;
