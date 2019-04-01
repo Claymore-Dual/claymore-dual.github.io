@@ -70,9 +70,15 @@
 <H1 class="eth-title">Как отключить дуал майнинг</h1>
 	<div class="eth-vi2">
 <H2>Способ 1. Если Вы майните через .bat файл:</H2>
+Просто установите <code>-mode 1</code> в вашей конфигурации, и это все.
+<h3>Пример</h3>
+<code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x6cbDf1eb7e55c60A5FBcf8d09AF98e6622C2b949 -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3   -ttli 90 -tstop 92 
+pause
+</code>
+
 
 <H2>Способ 2. Если Вы майните через конфигурацию (config.txt)</H2>
-
+Хотя и файл config.txt крайне не рекомендуется к использованию, убедитесь, что в нем нет записей о дуал майнинге.
 </div>
 </section>
 
