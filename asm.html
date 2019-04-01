@@ -69,10 +69,14 @@
 <section class="eth-art">
 <H1 class="eth-title">Claymore Dual Asm - настройка параметра</h1>
 	<div class="eth-vi2">
-<H2>Способ 1. Если Вы майните через .bat файл:</H2>
-Просто установите <code>-mode 1</code> в вашей конфигурации, и это все.
+<H2>Что означает парамтер ASM</H2>
+<code>-asm</code> позволяет включить ассемблерные ядра GPU. Опция работает только для карт серии AMD. Используйте ключ <code>-dcri</code> или клавиши <code>+</code> и <code>-</code> в консоли прогрммы, когда она запущена. Это позволит задать лучшую скорость.
+Значения asm:
+0 - отключить<br>
+1 - по умолчанию<br>
+Можно указать для отдельных карт. Например: "-asm 0,1,0"<br>
 <h3>Пример</h3>
-<code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x6cbDf1eb7e55c60A5FBcf8d09AF98e6622C2b949 -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3   -ttli 90 -tstop 92 
+<code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x6cbDf1eb7e55c60A5FBcf8d09AF98e6622C2b949 -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3   -ttli 90 -tstop 92 -asm 0,1,0
 pause
 </code>
 
