@@ -97,8 +97,50 @@ pause
 pause
 
 </code>
-<H2>Способ 2. Если Вы майните через конфигурацию (config.txt)</H2>
-<p>Хотя и файл config.txt крайне не рекомендуется к использованию, убедитесь, что в нем нет записей о дуал майнинге.</p>
+<H2>Выбор сервера Ethermine</H2>
+<p>Для выбора наиболее подходящего для вас сервера в зависимости от вашего местоположения используйте:</p>
+<pre>
+Северная Америка (Восток): us1.ethermine.org:4444 или us1.ethermine.org:14444
+
+Северная Америка (Запад): us2.ethermine.org:4444 или us2.ethermine.org:14444
+
+Европа (Франция): eu1.ethermine.org:4444 или eu1.ethermine.org:14444
+
+Европа (Германия): eu2.ethermine.org:4444 или eu2.ethermine.org:14444
+
+Азия: asia1.ethermine.org:4444 или asia1.ethermine.org:14444
+</pre>
+В этом примере я обновил мой для Восточного побережья США, так что теперь внутри вашего текстового файла вы должны иметь:
+
+setx GPU_FORCE_64BIT_PTR 0
+
+setx GPU_MAX_HEAP_SIZE 100
+
+setx GPU_USE_SYNC_OBJECTS 1
+
+setx GPU_MAX_ALLOC_PERCENT 100
+
+setx GPU_SINGLE_ALLOC_PERCENT 100
+
+EthDcrMiner64.exe -epool us1.ethermine.org:4444 -ewal <Your_Ethereum_Address>. <RigName> -epsw x
+
+Замените «<Your_Ethereum_Address>» на свой адрес кошелька Ethereum (который начинается с 0x…), скопируйте его из другого текстового файла и вставьте его здесь.
+Замените «<RigName>» на любое имя, которое вы хотели бы создать для своего майнера. Мы будем использовать «MiningRig1» для нашего примера, так что теперь у вас есть:
+setx GPU_FORCE_64BIT_PTR 0
+
+setx GPU_MAX_HEAP_SIZE 100
+
+setx GPU_USE_SYNC_OBJECTS 1
+
+setx GPU_MAX_ALLOC_PERCENT 100
+
+setx GPU_SINGLE_ALLOC_PERCENT 100
+
+EthDcrMiner64.exe -epool us1.ethermine.org:4444 -wal 0x46064Df3e898488B19bC985A0973be51698bD6bb.MiningRig1 -epsw x
+
+Сохраните ваш файл как пакетный файл с расширением bat. Для этого выберите «Файл»> «Сохранить как», а затем в поле выберите его имя и введите «.bat» после имени. В поле «Тип файла» выберите «Все файлы» и нажмите «Сохранить».
+
+Congrats! Теперь у вас есть готовый пакетный файл! Создайте ярлык для нового файла Bat и отправьте его на рабочий стол. Затем вы можете удалить текстовую версию файла.</p>
 
 <p><p class="vaz2">Проект Claymore представляет самые <strong>последние версии</strong> программного обеспечения (исправляет все ошибки и баги  предыдущих версий)! Поэтому если у Вас <strong>старая</strong> версия, мы настоятельно советуем <strong>скачать</strong> последнюю версию Claymore's по ссылкам ниже, так как с каждым выходом новой версии добыча Эфира становится <strong>выгоднее</strong>!</p>
 </div>
