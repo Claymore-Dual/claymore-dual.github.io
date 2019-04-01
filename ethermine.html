@@ -111,7 +111,7 @@ pause
 Азия: asia1.ethermine.org:4444 или asia1.ethermine.org:14444</code>
 </pre></blockquote>
 <p>В этом примере мы использовали европейские сервера, так что теперь внутри вашего текстового файла вы должны иметь:</p>
-<pre>
+<pre><code>
 setx GPU_FORCE_64BIT_PTR 0
 
 setx GPU_MAX_HEAP_SIZE 100
@@ -121,14 +121,14 @@ setx GPU_USE_SYNC_OBJECTS 1
 setx GPU_MAX_ALLOC_PERCENT 100
 
 setx GPU_SINGLE_ALLOC_PERCENT 100
-</pre>
-EthDcrMiner64.exe -epool eu2.ethermine.org:4444 -ewal <Ваш_Ethereum_Address>. <RigName> -epsw x
 
+EthDcrMiner64.exe -epool eu2.ethermine.org:4444 -ewal <Ваш_Ethereum_Address>. <RigName> -epsw x
+</code></pre>
 <p>
 Замените «<Your_Ethereum_Address>» на свой адрес кошелька Ethereum (который начинается с 0x…), скопируйте его из другого текстового файла и вставьте его здесь.</p>
 <p>
 Замените «<RigName>» на любое имя, которое вы хотели бы создать для своего майнера. Мы будем использовать «MiningRig1» для нашего примера, так что теперь у вас есть:</p>
-<pre>
+<pre><code>
 setx GPU_FORCE_64BIT_PTR 0
 
 setx GPU_MAX_HEAP_SIZE 100
@@ -140,7 +140,7 @@ setx GPU_MAX_ALLOC_PERCENT 100
 setx GPU_SINGLE_ALLOC_PERCENT 100
 
 EthDcrMiner64.exe -epool us1.ethermine.org:4444 -wal 0x9147460980c93629e775783148591b7d0a0cbf2d.MiningRig1 -epsw x
-</pre>
+</code></pre>
 <p>
 Сохраните ваш файл как пакетный файл с расширением bat. Для этого выберите «Файл»> «Сохранить как», а затем в поле выберите его имя и введите «.bat» после имени. В поле «Тип файла» выберите «Все файлы» и нажмите «Сохранить».</p>
 <p>
