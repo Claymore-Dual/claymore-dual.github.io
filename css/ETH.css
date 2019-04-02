@@ -400,6 +400,9 @@ display:inline;
 .eth-items {
     flex-direction: column;
 }
+.eth-img {
+    background-size: cover;
+}
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
