@@ -378,6 +378,13 @@ display:inline;
 .eth-left {float:left;width:350px;margin: 0 0 0 40px;}
 .eth-right {float:right;width:350px;margin: 0 40px 0 0;}
  .nev3 {color:#6b6b6b;}
+@media all and (min-width:350px) and (max-width:1023px){
+#page-wrapper .eth-menu ul li {
+    width: 100%;
+}
+	
+} 
+ 
 @media all and (min-width:1023px) and (max-width:1280px){
 .eth-header h1 {
 font-size: 225%;
