@@ -89,66 +89,20 @@
 <img src="items/ethminer/ethminer.png" alt="ethminer">	
 А вот Claymore Dual Miner
 <img src="items/ethminer/claymore.png" alt="claymore">	
-<H2>Шаг 1. создайте или отредактируйте .bat файл</H2>
-
-<h3>Пример</h3>
-<code>EthDcrMiner64.exe -epool <span class="eth-grn">eu1.ethermine.org:4444</span> -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3   -ttli 90 -tstop 92 
-
-pause
-
-</code>
-<h3>Просто вставьте сюда Ваш коешелк</h3>
-<code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal <span class="eth-grn">ВАШ_КОШЕЛЕК</span> -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3   -ttli 90 -tstop 92 
-
-pause
-
-</code>
-<H2>Выбор сервера Ethermine</H2>
-<p>Для выбора наиболее подходящего для вас сервера в зависимости от вашего местоположения используйте:</p>
-<blockquote><pre><code>
-Северная Америка (Восток): us1.ethermine.org:4444 или us1.ethermine.org:14444
-
-Северная Америка (Запад): us2.ethermine.org:4444 или us2.ethermine.org:14444
-
-Европа (Франция): eu1.ethermine.org:4444 или eu1.ethermine.org:14444
-
-Европа (Германия): eu2.ethermine.org:4444 или eu2.ethermine.org:14444
-
-Азия: asia1.ethermine.org:4444 или asia1.ethermine.org:14444</code>
-</pre></blockquote>
-<p>В этом примере мы использовали европейские сервера, так что теперь внутри вашего текстового файла вы должны иметь:</p>
-<pre><code>setx GPU_FORCE_64BIT_PTR 0
-
-setx GPU_MAX_HEAP_SIZE 100
-
-setx GPU_USE_SYNC_OBJECTS 1
-
-setx GPU_MAX_ALLOC_PERCENT 100
-
-setx GPU_SINGLE_ALLOC_PERCENT 100
-
-EthDcrMiner64.exe -epool eu2.ethermine.org:4444 -ewal <Ваш_Ethereum_Address>. <RigName> -epsw x
-</code></pre>
+<H2>Причины почему Claymore лучше</H2>
+<p>Причина, по которой лучше Claymore - это широкий спектр настроек командной строки. Возможность изменять все  настройки на каждой карточке индивидуально с помощью простых текстовых аргументов - это прекрасно. Многим нравится разгонять карты и понижать напряжение с помощью Claymore.
+</p>
 <p>
-Замените «<Your_Ethereum_Address>» на свой адрес кошелька Ethereum (который начинается с 0x…), скопируйте его из другого текстового файла и вставьте его здесь.</p>
+У многих также были проблемы с ethminer и стабильностью. Карты простаивали часами без работы.
+Claymore имеет встроенный сторожевой таймер. В сочетании с перезагрузкой. В случае зависания системы, он сам перезапустится.
+</p>
+
+<h2>Причины почему Ethminer лучше</h2>
 <p>
-Замените «<RigName>» на любое имя, которое вы хотели бы создать для своего майнера. Мы будем использовать «MiningRig1» для нашего примера, так что теперь у вас есть:</p>
-<pre><code>setx GPU_FORCE_64BIT_PTR 0
+Многим просто больше нравятся цветовое офрмление консоли майнера...
+</p>
 
-setx GPU_MAX_HEAP_SIZE 100
 
-setx GPU_USE_SYNC_OBJECTS 1
-
-setx GPU_MAX_ALLOC_PERCENT 100
-
-setx GPU_SINGLE_ALLOC_PERCENT 100
-
-EthDcrMiner64.exe -epool us1.ethermine.org:4444 -wal 0x9147460980c93629e775783148591b7d0a0cbf2d.MiningRig1 -epsw x
-</code></pre>
-<p>
-Сохраните ваш файл как пакетный файл с расширением bat. Для этого выберите «Файл»> «Сохранить как», а затем в поле выберите его имя и введите «.bat» после имени. В поле «Тип файла» выберите «Все файлы» и нажмите «Сохранить».</p>
-<p>
-Поздравляем! Теперь у вас есть готовый пакетный файл для Ethermine! Создайте ярлык для нового Bat файла  и отправьте его на рабочий стол.</p>
 
 <p><p class="vaz2">Проект Claymore представляет самые <strong>последние версии</strong> программного обеспечения (исправляет все ошибки и баги  предыдущих версий)! Поэтому если у Вас <strong>старая</strong> версия, мы настоятельно советуем <strong>скачать</strong> последнюю версию Claymore's по ссылкам ниже, так как с каждым выходом новой версии добыча Эфира становится <strong>выгоднее</strong>!</p>
 </div>
