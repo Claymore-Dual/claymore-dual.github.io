@@ -453,6 +453,10 @@ display:inline;
 .eth-header-composition {
     width: auto;
 }
+a.eth-policy {
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
