@@ -385,6 +385,9 @@ display:inline;
 .eth-header {
     background-size: cover;
 }	
+.eth-header-flex {
+    margin: 0 20px;
+}
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
