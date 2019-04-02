@@ -443,7 +443,7 @@ display:inline;
     margin: 0;
 }
 .eth-right {
-    float: right;
+    float: none;
     width: 100%;
     margin: 0;
 }
