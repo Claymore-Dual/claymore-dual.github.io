@@ -382,7 +382,9 @@ display:inline;
 #page-wrapper .eth-menu ul li {
     width: 100%;
 }
-	
+.eth-header {
+    background-size: cover;
+}	
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
