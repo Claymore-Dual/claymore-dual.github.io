@@ -403,6 +403,10 @@ display:inline;
 .eth-img {
     background-size: cover;
 }
+.eth-pc {
+    position: relative;
+    min-height: 231px;
+}
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
