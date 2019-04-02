@@ -379,7 +379,7 @@ display:inline;
 .eth-right {float:right;width:350px;margin: 0 40px 0 0;}
  .nev3 {color:#6b6b6b;}
 @media all and (min-width:1023px) and (max-width:1280px){
-body.html.page-node.page-node-.node-type-page h1 {
+.eth-header h1 {
 font-size: 225%;
 }	
 .eth-header {	
@@ -388,7 +388,7 @@ min-height: 380px;
  
 .eth-header-flex {
 /* top: 62px; */
-    min-height: 471px;
+    min-height: 361px;
 }
 .eth-gpu {
     min-height: 422px;
@@ -396,6 +396,7 @@ min-height: 380px;
 .eth-button {
     max-width: 205px;
 }
+
 }
 @media all and (min-width:1024px) and (max-width:1365){
 .eth-header {	
