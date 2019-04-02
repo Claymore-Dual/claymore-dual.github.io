@@ -447,6 +447,9 @@ display:inline;
     width: 100%;
     margin: 0;
 }
+.eth-header h1 {
+    width: auto;
+}
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
