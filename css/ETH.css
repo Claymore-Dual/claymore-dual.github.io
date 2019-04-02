@@ -416,6 +416,7 @@ display:inline;
 .eth-button.down {
     margin: 50px 20px 0px 16px;
     padding: 0px 9px;
+	font-size: 15px;
 }
 .eth-fast {
     font-size: 140%;
@@ -423,6 +424,13 @@ display:inline;
 }
 .eth-ver {
     width: 330px;
+}
+#page-wrapper .eth-menu ul li {
+ border-left:none;
+}
+.block-menu ul li {
+ border-left:none;
+
 }
 } 
  
