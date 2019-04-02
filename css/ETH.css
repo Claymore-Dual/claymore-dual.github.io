@@ -407,6 +407,9 @@ display:inline;
     position: relative;
     min-height: 231px;
 }
+.eth-vi2 {
+    margin: 0 20px;
+}
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
