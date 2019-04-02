@@ -391,6 +391,9 @@ display:inline;
 .eth-button {
     padding: 0 36px;
 }
+.e-itm {
+    width: 100%;
+}
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
