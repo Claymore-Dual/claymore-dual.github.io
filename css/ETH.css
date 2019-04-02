@@ -397,6 +397,9 @@ display:inline;
 .eth-gpu {
     background-size: cover;
 }
+.eth-items {
+    flex-direction: column;
+}
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
