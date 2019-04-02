@@ -434,6 +434,19 @@ display:inline;
 .eth-menu .last.leaf {
     border-right:none;
 }
+.foot-itm.developer-resources {
+    margin: 0 20px;
+}
+.eth-left {
+    float: none;
+    width: 100%;
+    margin: 0;
+}
+.eth-right {
+    float: right;
+    width: 100%;
+    margin: 0;
+}
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
