@@ -421,6 +421,9 @@ display:inline;
     font-size: 140%;
     width: 30%;
 }
+.eth-ver {
+    width: 330px;
+}
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
