@@ -430,7 +430,9 @@ display:inline;
 }
 .block-menu ul li {
  border-left:none;
-
+}
+.eth-menu .last.leaf {
+    border-right:none;
 }
 } 
  
