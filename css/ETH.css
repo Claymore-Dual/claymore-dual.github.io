@@ -394,6 +394,9 @@ display:inline;
 .e-itm {
     width: 100%;
 }
+.eth-gpu {
+    background-size: cover;
+}
 } 
  
 @media all and (min-width:1023px) and (max-width:1280px){
