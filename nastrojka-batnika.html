@@ -91,8 +91,21 @@
 <div class="video">
 <iframe width="1263" height="712" src="https://www.youtube.com/embed/PET8OgA_xvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<p>Загрузите Claymore Dual Ethereum AMD + NVIDIA GPU Miner для Windows со&nbsp; страницы.</p>
 
+<p>Распакуйте загруженный файл.</p>
 
+<p>В распакованном каталоге вы найдете файлы&nbsp; с расширением .bat, отредактируйте файл с нужной монетой следующим образом:</p>
+
+<blockquote><pre><code>ethdcrminer64.exe -epool АДРЕС_ПУЛА:порт -ewal АДРЕКС_КОШЕЛЬКА.ИМЯ_ФЕРМЫ -epsw x</code></pre></blockquote>
+
+<p>Поскольку вы используете майнинг Ethereum, вам нужно указать пул для Ethereum. В этом руководстве мы будем приводить примеры с пулами Эфира, чтобы вы могли использовать любой пул Ethereum, какой пожелаете.</p>
+
+<p>Замените адрес_пула:порт, адрекс_кошелька и имя_фермы.</p>
+<h3>Пример</h3>
+<blockquote><pre><code>
+EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3   -ttli 90 -tstop 92 
+pause</code></pre></blockquote>
 
 
 
