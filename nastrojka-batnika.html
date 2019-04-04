@@ -92,30 +92,7 @@
 <iframe width="1263" height="712" src="https://www.youtube.com/embed/PET8OgA_xvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-<h2>Отключить mport</h2>
-<p>
-<img src="items/mport/mport claymore (1).png" alt="mport">	
-</p>
-<h2>Установить mport под номером порта 32</h2>
-<p>
-Теперь Claymore не закроется сразу же, а отобразит код и причину ошибки.
-</p>
-<img src="items/mport/mport claymore (2).png" alt="mport">
-<h2>Установить mport под номером -3333 (только наблюдение)</h2>	
-<img src="items/mport/mport claymore (3).png" alt="mport">	
 
-<h3>Пример кода</h3>
-<p>
-Начиная с версии 7.3, разработчики представили инструмент удаленного управления EthMan, который позволяет удаленно управлять майнером, отправляя строки JSON API на определенный порт, заданный на этапе настройки. Вот как майнер может начать добывать Ethereum:
-</p>
-<blockquote><pre><code>
-EthDcrMiner64.exe -epool eth-ru2.dwarfpool.com:8008 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d.rig1 -mode 1 -r 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3 -ftime 45 -tt 73 -ttli 79 -tstop 82 -fanmin 30
-pause
-</code></pre></blockquote>
-<p>
-Не переходя к объяснению каждого параметра, посмотрите на параметр -mport, который наиболее нам интересен. Он открывает порт 5555, ожидающий входящее соединение от инструмента удаленного менеджера. Вот как выглядит EthMan:
-</p>
-<img src="items/mport/remote.png" alt="mport">	
 
 
 
