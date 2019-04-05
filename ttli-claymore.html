@@ -86,28 +86,19 @@
 <H1 class="eth-title"><a id="start">Claymore Dual Miner ttli что означает</a></h1>
 	<div class="eth-vi2">
 <p>Команда <code class="grn">ttli</code> уменьшает интенсивность всего майнинга, а не только двойного.</p>
+<p>Если температура графического процессора достигает 80°, то Claymore снизит общую интенсивность добычи, поэтому рекомендуется определять эту температуру примерно на 3 или 5 градусов выше той, которая указана в параметре  <code class="grn">-tt</code></p>
 
 <h2>Примеры</h2>
 Пример на русском языке:
 <div class="video mar">
 <iframe width="1263" height="712" src="https://www.youtube.com/embed/PET8OgA_xvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<p>Загрузите Claymore Dual Ethereum AMD + NVIDIA GPU Miner для Windows со&nbsp; страницы.</p>
 
-<p>Распакуйте загруженный файл.</p>
 
-<p>В распакованном каталоге вы найдете файлы&nbsp; с расширением .bat, отредактируйте файл с нужной монетой следующим образом:</p>
 
-<blockquote><pre><code>ethdcrminer64.exe -epool АДРЕС_ПУЛА:порт -ewal АДРЕКС_КОШЕЛЬКА.ИМЯ_ФЕРМЫ -epsw x</code></pre></blockquote>
-
-<p>Поскольку вы используете майнинг Ethereum, вам нужно указать пул для Ethereum. В этом руководстве мы будем приводить примеры с пулами Эфира, чтобы вы могли использовать любой пул Ethereum, какой пожелаете.</p>
-
-<p>Замените адрес_пула:порт, адрекс_кошелька и имя_фермы.</p>
 <h3>Пример</h3>
 <blockquote><pre><code>
-EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3   -ttli 90 -tstop 92 
-pause</code></pre></blockquote>
-
+EthDcrMiner64.exe -epool eth-ru2.dwarfpool.com:8008 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d.rig1 -mode 1 -r 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3 -tt 73 <code class="grn">-ttli 79</code> -tstop 82 -fanmin 30</code></pre></blockquote>
 
 
 <p><p class="vaz2">Проект Claymore представляет самые <strong>последние версии</strong> программного обеспечения (исправляет все ошибки и баги  предыдущих версий)! Поэтому если у Вас <strong>старая</strong> версия, мы настоятельно советуем <strong>скачать</strong> последнюю версию Claymore's по ссылкам ниже, так как с каждым выходом новой версии добыча Эфира становится <strong>выгоднее</strong>!</p>
