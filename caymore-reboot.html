@@ -106,6 +106,11 @@
 </p>
 <p>
 Команда <code class="grn">-r 1</code> закрывает майнер и запускает файл «reboot.bat» («reboot.bash» или «reboot.sh» для версии Linux) в каталоге майнера (если файл существует, скачать каталог с этим файлом можно ниже), если произошел сбой какого-либо графического процессора.</p>
+<h3>Пример с ключом <code class="grn">-r 1</code></h3>
+<blockquote><pre><code>
+EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker rig1 -epsw x -mode 1 -r 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3 -ftime 45 -tt 70 -ttli 79 -tstop 82 -fanmin 30
+pause
+</code></pre></blockquote>
 <p>
 Таким образом, вы можете создать сами файл «reboot.bat» и выполнить некоторые действия, например, перезагрузить систему, если вы поместите туда следующую строку: <code>«shutdown / r / t 5 / f».</code>
 </p>
