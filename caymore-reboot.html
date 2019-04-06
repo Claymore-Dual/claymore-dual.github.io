@@ -83,13 +83,19 @@
 	</div>
 </section>
 <section class="eth-art">
-<H1 class="eth-title"><a id="start">Почему вылетает Claymore Miner</a></h1>
+<H1 class="eth-title"><a id="start">Reboot bat для Claymore</a></h1>
 	<div class="eth-vi2">
-<p>Первое, что нужно сделать, это скачать самую свежую версию Claymore, в которой исправлены все ошибки.</p>
-<p>Второе - это убедиться, что все файлы программы целы: их не заблокировал защитник Windows, или любое другое ПО, они не удалилсь при автоматическом обновлении системы и т.д.</p>
-<p>Далее нужно дописать ключ <code>pause</code> в бат файле, через который Вы добываете криптовалюту.</p>
+<blockquote><pre><code>
+shutdown /r /t 10 /f
+
+rem Здесь:
+rem - r - перезагрузить компьютер;
+rem - t 10 - таймаут завершения работы 10 секунд;
+rem - f - принудительно завершить программы без предупреждения.
+
+</code></pre></blockquote>
 <h3>Пример</h3>
-<img src="items/crash/pause.png" alt="pause">	
+<img src="items/crash/reboot.png" alt="reboot">	
 <p>
 Теперь Claymore не закроется сразу же, а отобразит код и причину ошибки.
 </p>
