@@ -112,18 +112,16 @@
 Теперь откройте новый файл блокнота и введите следующую команду 
 </p>
 
-<h3>Пример файла перезагрузки</h3>
+<h3>Пример файла автозагрузки</h3>
 <blockquote><pre><code>
-shutdown /r /t 10 /f
-
-rem Здесь:
-rem - r - перезагрузить компьютер;
-rem - t 10 - таймаут завершения работы 10 секунд;
-rem - f - принудительно завершить программы без предупреждения.
+echo off 
+start / d: «Вот куда уходит ваш адрес start.bat». 
+Пример start.bat : 
+echo off
 
 </code></pre></blockquote>
 
-
+<h3>Пример файла автозагрузки</h3>
 <p>start /d "C:\Users\Desktop\my files\Claymore's Dual Ethereum  AMD+NVIDIA GPU Miner v12.0 - Windows" <strong>3_Ethereum-ethermine.bat</strong><br />
 Сохраните файл так, как вы хотите его назвать. (Убедитесь, что вы используете <strong>кавычки</strong>, до C: и после имени папки, в которой находится ваш пакетный файл) </p>
 
