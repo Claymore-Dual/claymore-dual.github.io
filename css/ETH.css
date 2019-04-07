@@ -489,7 +489,7 @@ a.eth-policy {
 } 
 
 @media all and (min-width:1023px) and (max-width:1280px){
-.eth-header h1 {
+.eth-header h1, .eth-header h2 {
 font-size: 225%;
 }	
 .eth-header {	
