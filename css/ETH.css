@@ -384,7 +384,7 @@ display:inline;
 .eth-right {float:right;width:350px;margin: 0 40px 0 0;}
  .nev3 {color:#6b6b6b;}
  
-.eth-inner {
+.eth-inner p{
 font-size:21px;
 line-height: 1.60;	
 	
