@@ -57,6 +57,14 @@ background-size: contain;
     text-shadow: 3px 3px 1px #000;
     overflow: hidden;
 }
+.eth-header h2 {color:#fff;border: none;
+    margin: 0;
+    display: block;
+    width: 39%;
+    font-size: 300%;
+    text-shadow: 3px 3px 1px #000;
+    overflow: hidden;
+}
 .eth-header-flex {
 	display:flex;
 	height:100%;
