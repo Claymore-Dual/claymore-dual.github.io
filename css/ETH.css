@@ -467,6 +467,10 @@ a.eth-policy {
     margin: 0 20px;
 }
 } 
+.eth-inner {
+font-size:21px;	
+	
+}
  
 @media all and (min-width:1023px) and (max-width:1280px){
 .eth-header h1 {
