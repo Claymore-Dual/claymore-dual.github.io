@@ -317,6 +317,12 @@ margin: 50px 20px 0 0;
     left: 187px;
     color: #fff;
 }
+.eth-password {
+    position: absolute;
+    bottom: -30px;
+    left: 187px;
+    color: #fff;
+}
 .eth-mirror a {
     color: #fff;
     text-decoration: underline;
