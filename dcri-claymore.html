@@ -98,20 +98,23 @@
 
 <h3>Примеры использования</h3>
 <p>
-Например, по умолчанию (-dcri 30) карта 390 показывает 29MH / s для Ethereum и 440MH / s для Decred. Установка -dcri 70 вызывает 24MH / s для Ethereum и 850MH / s для Decred.
-Используйте эту опцию в режиме ETH-only ASM для тонкой настройки.
-Если вы не указали опцию «-dcri» в режиме ETH-only ASM, майнер автоматически определит лучшие значения -dcri, вы также можете нажать клавишу «z», чтобы сделать это.
+Например, по умолчанию (-dcri 30) карта 390 показывает 29 MH/s для Ethereum и 440 MH/s для Decred. Установка -dcri 70 вызывает 24M H/s для Ethereum и 850 MH/
+s для Decred.
 </p>
 <p>
+Используйте эту опцию в режиме ETH-only ASM для тонкой настройки.
+Если вы не указали опцию «-dcri» в режиме ETH-only <a href="https://claymore-dual.github.io/asm" target="_blank">ASM,</a> майнер автоматически определит лучшие значения -dcri, вы также можете нажать клавишу «z», чтобы сделать это.
+</p>
+<p>
+<h3>Пример</h3>
 <code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker Claymore -epsw x -etha 0 -allpools 1 -dpool xvg.eu1.unimining.net:5770 -dwal DPNSdySRg8zFmU6Zcqyo9XKJKDhMm87Xn7.Claymore -dpsw c=XVG -dcoin blake2s -r 0 -dbg -1 -mport 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 77 -tstop 89 -fanmin 30 <span class="grn">-dcri 45</span>
 pause
 </code></p>
-<p>В данном примере будут майнить только первая, третья и шестая видеокарта (индексы #0 #2 #5) 
+<p>В данном примере интенсивность установлена в 45%.
 </p>
 <h3>Еще примеры</h3>
 <code><pre>
-<span class="grn">-dcri 30,40,100</span> значения для трех карт 
-<span class="grn">-di 01345</span> запускает пять из них, кроме GPU2</pre>
+<span class="grn">-dcri 30,40,100</span> задает значения для трех карт 
 </code>
 Результаты использования функции <code>-dcri</code>, влияние на хэшрейт в Mh/s
 <p>
