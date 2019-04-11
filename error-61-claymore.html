@@ -83,7 +83,22 @@
 <section class="eth-art">
 <H1 class="eth-title"><a id="start">Claymore error 61, error 38</a></h1>
 	<div class="eth-vi2">
-<H2>Что означает парамтер dcri</H2>
+
+<h2>Симпотомы:</h2>
+
+<p>Система запускается нормально и работает без проблем 16-20 часов, все карты работают нормально.</p>
+
+<p>Внезапно, без каких-либо ошибок в консоли или лог-файле, выпадают 3 карты, и только одна карта продолжает майнинг.</p>
+
+<p>Затем Claymore Miner перезапускается автоматически, теперь все 4 карты не работают и выдает</p>
+
+<p class="pad how2"> <i class="fas fa-exclamation-triangle"></i><span>OpenCL error -61 - cannot allocate big buffer for DAG</span></p>
+
+<p>потому что по какой-то причине он больше не распознает все 8 ГБ памяти видеокарты, но только &lt;2ГБ.</p>
+
+<p>После перезагрузки все идет нормально еще 12-20 часов.</p>
+
+
 <p>значение <code>-dcri</code> оказывает значительное влияние на производительность.</p>
 <p>
 <code>-dcri</code> это значение для Decred / Siacoin / Lbry / Pascal <b>или</b> значение точной настройки Ethereum в режиме ETH-only (только Эфириум) <a href="https://claymore-dual.github.io/asm" target="_blank">ASM.</a> </p>
