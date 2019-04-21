@@ -82,34 +82,37 @@
 	</div>
 </section>
 <section class="eth-art">
-<H1 class="eth-title"><a id="start">Как настроить Claymore для Ethermine</a></h1>
+<H1 class="eth-title"><a id="start">Как настроить Claymore для Dwarfpool</a></h1>
 	<div class="eth-vi2">
 <H2>Шаг 1. создайте или отредактируйте .bat файл</H2>
 
 <h3>Пример</h3>
-<code>EthDcrMiner64.exe -epool <span class="eth-grn">eu1.ethermine.org:4444</span> -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3   -ttli 90 -tstop 92 
+<code>EthDcrMiner64.exe -epool <span class="eth-grn">eth-ru2.dwarfpool.com:8008</span> -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker Claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30
 
 pause
 
 </code>
 <h3>Просто вставьте сюда Ваш коешелк</h3>
-<code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal <span class="eth-grn">ВАШ_КОШЕЛЕК</span> -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3   -ttli 90 -tstop 92 
-
+<code>EthDcrMiner64.exe -epool eth-ru2.dwarfpool.com:8008 -ewal <span class="eth-grn">ВАШ_КОШЕЛЕК</span> -eworker Claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30 
 pause
-
 </code>
-<H2>Выбор сервера Ethermine</H2>
+<H2>Выбор сервера dwarfpool</H2>
 <p>Для выбора наиболее подходящего для вас сервера в зависимости от вашего местоположения используйте:</p>
 <blockquote><pre><code>
-Северная Америка (Восток): us1.ethermine.org:4444 или us1.ethermine.org:14444
-
-Северная Америка (Запад): us2.ethermine.org:4444 или us2.ethermine.org:14444
-
-Европа (Франция): eu1.ethermine.org:4444 или eu1.ethermine.org:14444
-
-Европа (Германия): eu2.ethermine.org:4444 или eu2.ethermine.org:14444
-
-Азия: asia1.ethermine.org:4444 или asia1.ethermine.org:14444</code>
+Европейский сервер: eth-eu.dwarfpool.com (Франция) 
+Американский сервер: eth-us.dwarfpool.com (Монреаль, Канада) 
+Американский сервер: eth-us2.dwarfpool.com (Лас-Вегас) 
+RU-Сервер: eth-ru.dwarfpool.com (Москва, Россия) 
+ASIA-сервер: eth-asia.dwarfpool.com (Сингапур)
+Порт: 80, 8000 и Stratum-Port (прокси + клеймор): 8008
+CN-сервер: eth-cn.dwarfpool.com (Шанхай / 上海市) 
+CN-сервер: eth-cn2.dwarfpool.com (Пекин / 北京)
+Только Stratum-Port (прокси + клеймор): 8008
+SG-сервер: eth-sg.dwarfpool.com (Сингапур) 
+AU-сервер: eth-au.dwarfpool.com (Мельбурн) 
+RU-сервер: eth-ru2.dwarfpool.com (Москва, Россия) 
+HK-сервер: eth- hk.dwarfpool.com (Гонконг / 香港)
+</code>
 </pre></blockquote>
 <p>В этом примере мы использовали европейские сервера, так что теперь внутри вашего текстового файла вы должны иметь:</p>
 <pre><code>setx GPU_FORCE_64BIT_PTR 0
