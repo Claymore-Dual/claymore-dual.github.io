@@ -87,11 +87,11 @@
 <H2>Шаг 1. создайте или отредактируйте .bat файл</H2>
 
 <h3>Пример</h3>
-<code>EthDcrMiner64.exe -epool <span class="eth-grn">eth-ru2.dwarfpool.com:8008</span> -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker Claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30
+<div class="vaz2"><pre><code>EthDcrMiner64.exe -epool <span class="eth-grn">eth-ru2.dwarfpool.com:8008</span> -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker Claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30
 
 pause
 
-</code>
+</code></pre></div>
 <p>
 <a href="items/examples/dwarfpool.png" target="_blank">
 <img src="items/examples/dwarfpool.png" alt="dwarfpool"></a>
@@ -120,7 +120,7 @@ HK-сервер: eth- hk.dwarfpool.com (Гонконг / 香港)
 </code>
 </pre></blockquote>
 <p>В этом примере мы использовали российские сервера, так что теперь внутри вашего текстового файла вы должны иметь:</p>
-<pre><code>setx GPU_FORCE_64BIT_PTR 0
+<div class="vaz2"><pre><code>setx GPU_FORCE_64BIT_PTR 0
 
 setx GPU_MAX_HEAP_SIZE 100
 
@@ -131,12 +131,12 @@ setx GPU_MAX_ALLOC_PERCENT 100
 setx GPU_SINGLE_ALLOC_PERCENT 100
 
 EthDcrMiner64.exe -epool eth-ru2.dwarfpool.com:8008 -ewal <Ваш_Ethereum_Address>. <RigName> -epsw x
-</code></pre>
+</code></pre></div>
 <p>
 Замените «<Your_Ethereum_Address>» на свой адрес кошелька Ethereum (который начинается с 0x…), скопируйте его из другого текстового файла и вставьте его здесь.</p>
 <p>
 Замените «<RigName>» на любое имя, которое вы хотели бы создать для своего майнера. Мы будем использовать «MiningRig1» для нашего примера, так что теперь у вас есть:</p>
-<pre><code>setx GPU_FORCE_64BIT_PTR 0
+<div class="vaz"><pre><code>setx GPU_FORCE_64BIT_PTR 0
 
 setx GPU_MAX_HEAP_SIZE 100
 
@@ -147,7 +147,7 @@ setx GPU_MAX_ALLOC_PERCENT 100
 setx GPU_SINGLE_ALLOC_PERCENT 100
 
 EthDcrMiner64.exe -epool eth-ru2.dwarfpool.com:8008 -wal 0x9147460980c93629e775783148591b7d0a0cbf2d.MiningRig1 -epsw x
-</code></pre>
+</code></pre></div>
 <p>
 Сохраните ваш файл как пакетный файл с расширением bat. Для этого выберите «Файл»> «Сохранить как», а затем в поле выберите его имя и введите «.bat» после имени. В поле «Тип файла» выберите «Все файлы» и нажмите «Сохранить».</p>
 <p>
