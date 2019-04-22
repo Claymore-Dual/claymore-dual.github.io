@@ -93,27 +93,25 @@
 <li><code>-esm 2</code> — режим miner-proxy (например, coinotron.com),  </li>
 <li><code>-esm 3</code> — режим для nicehash.</li>
 </ol>
-<p>Программа автоматически подбирает оптимальный алгоритм (по умолчанию).</p>
-<p>Можно определять эти значения индивидуально для каждой видеокарты, например: "-esm 0,1,0"</p>
-
 
 
 <h3>Примеры использования</h3>
-Оптимизация для быстрых карт:
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba.claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 <span class="eth-grn">-etha 0</span> -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
+<h3>Режим eth-proxy (по умолчанию), значение можно не указывать:</h3>
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
 pause</code></pre></div>
 
-Оптимизация для медленных карт (старого поколения):
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba.claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 <span class="eth-grn">-etha 1</span> -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
+<h3>Режим ESM 1:</h3>
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30 <span class="eth-grn">-esm 1</span>
+pause
+</code></pre></div>
+
+
+<h3>Режим ESM 2:</h3>
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool europe.ethash-hub.miningpoolhub.com:20535 -ewal rgzrgz_leo.rgzrgz_leo -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 75 -ttli 85 -tstop 89 <span class="eth-grn">-esm 2</span>
 pause</code></pre></div>
 
-
-Оптимизация для драйверов Linux gpu-pro:
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba.claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 <span class="eth-grn">-etha 2</span> -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
-pause</code></pre></div>
-
-автоматический выбор режима:
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba.claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 <span class="eth-grn">-etha -1</span> -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
+<h3>Режим ESM 3:</h3>
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool pool.minerall.io:3401 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30 <span class="eth-grn">-esm 3</span>
 pause</code></pre></div>
 
 Изменить параметр можно в любом текстовом редакторе:
