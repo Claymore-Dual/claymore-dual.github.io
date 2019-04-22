@@ -138,20 +138,22 @@ pause</code></pre></div>
 
 
 <h3>Пример 2. стремиться поддерживать температуру 79° и остановить при достижении макс. температуры:</h3>
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 1 <span class="eth-grn">-tt 79 -fanmin 30 -fanmax 80 -tstop 89</span>
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 1 <span class="eth-grn">-tt 79 -fanmin 40 -fanmax 85 -tstop 89</span>
 pause
 </code></pre></div>
-<p>Программа будет стремиться поддерживать температуру 79°, минимальная скорость вращения вентиляторов составляет 30%, а максимальная скорость - 80% и остановится при достижении температуры в 89° (<code>-tstop 89</code>)</p>
-
+<p>Программа будет стремиться поддерживать температуру 79°, минимальная скорость вращения вентиляторов составляет 40%, а максимальная скорость - 85% и остановится при достижении температуры в 89° (<code>-tstop 89</code>)</p>
 
 
 <h3>Пример 3. Задать постоянную (статическую) скорость вращения вентиляторов</h3>
 <div class="vaz"><pre><code>EthDcrMiner64.exe -epool europe.ethash-hub.miningpoolhub.com:20535 -ewal rgzrgz_leo.rgzrgz_leo -epsw x -mode 1 -dbg -1 -mport 0 -esm 2 -etha 0 -retrydelay 1 <span class="eth-grn">-tt -80</span>
 pause</code></pre></div>
 <p>Программа будет всегда держать обороты вентиляторов в 80%. (<code>-tt -80</code>)</p>
-<h3>Пример 3. Стремиться поддерживать температуру в 79° и снизить интенсивность майнинга при достижении 85°</h3>
+
+<h3>Пример 4. Стремиться поддерживать температуру в 79° и снизить интенсивность майнинга при достижении 85°</h3>
 <div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-ru2.dwarfpool.com:8008 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d.claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 <span class="eth-grn">-tt 79 -ttli 85 -tstop 89 -fanmin 30</span>
 pause</code></pre></div>
+<p>Программа будет стремиться поддерживать температуру 79°, минимальная скорость вращения вентиляторов составляет 30%, а максимальная скорость - 80% и остановится при достижении температуры в 89° (<code>-ttli 85</code>)</p>
+
 
 <p>
 <a href="items/examples/esm2.png" target="_blank">
