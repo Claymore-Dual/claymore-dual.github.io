@@ -154,10 +154,16 @@ nvidia-smi.exe -q -d PERFORMANCE<br />
 <img src="items/examples/cmd_pstate.jpg" alt="cmd_pstate"></a>
 </p>
 
-<div>
-<p>nvidia-smi.exe -q -d SUPPORTED_CLOCKS|more</p>
-</div>
-<p>Просто запишите два первых числа разгона (память и графика). С нашей картой это 3505 МГц / 1506 МГц. Затем вы можете переключиться в состояние P0, используя следующую команду: <a href="https://image.ibb.co/b9hHs5/cmd_supported.jpg" target="_blank"><img alt="https://image.ibb.co/b9hHs5/cmd_supported.jpg" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg" style="height:217px; width:700px" /></a></p>
+
+<code>nvidia-smi.exe -q -d SUPPORTED_CLOCKS|more</code>
+
+<p>Просто запишите два первых числа разгона (память и графика). С нашей картой это 3505 МГц / 1506 МГц. Затем вы можете переключиться в состояние P0, используя следующую команду:
+</p>
+<p>
+<a href="items/examples/cmd_supported.jpg" target="_blank">
+<img src="items/examples/cmd_supported.jpg" alt="cmd_supported"></a>
+</p>
+
 <div>
 <p>nvidia-smi.exe -ac 3505,1506</p>
 </div>
