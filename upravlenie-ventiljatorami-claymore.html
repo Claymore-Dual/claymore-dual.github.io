@@ -150,16 +150,16 @@ pause</code></pre></div>
 <p>Программа будет всегда держать обороты вентиляторов в 80%. (<code>-tt -80</code>)</p>
 
 <h3>Пример 4. Стремиться поддерживать температуру в 79° и снизить интенсивность майнинга при достижении 85°</h3>
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-ru2.dwarfpool.com:8008 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d.claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 <span class="eth-grn">-tt 79 -ttli 85 -tstop 89 -fanmin 45</span>
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-ru2.dwarfpool.com:8008 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d.claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 <span class="eth-grn">-tt 79 -ttli 85 -tstop 89 -fanmin 45 -fanmax 83</span>
 pause</code></pre></div>
-<p>Программа будет стремиться поддерживать температуру 79°, минимальная скорость вращения вентиляторов составляет 45%, а максимальная скорость - 80% и остановится при достижении температуры в 89° (<code>-ttli 85</code>)</p>
+<p>Программа будет стремиться поддерживать температуру 79°, минимальная скорость вращения вентиляторов составляет 45%, а максимальная скорость - 83% и остановится при достижении температуры в 89° (<code>-ttli 85</code>)</p>
 
 
-<h3>Пример 5. Стремиться поддерживать температуру в 79°, снизить интенсивность майнинга при достижении 85°, отключить при 89 и запустить снова когда карты остынут до 75°</h3>
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth.f2pool.com:6688 -ewal rgz -eworker rgz -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -asm 2 -allpools 1 <span class="eth-grn">-tt 79 -ttli 85 -tstop 89 -tstart 75 -fanmin 35</span>
+<h3>Пример 5. Стремиться поддерживать температуру в 79°, снизить интенсивность майнинга при достижении 85°, остановить при 89° и запустить снова когда карты остынут до 75°</h3>
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth.f2pool.com:6688 -ewal rgz -eworker rgz -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -asm 2 -allpools 1 <span class="eth-grn">-tt 79 -ttli 85 -tstop 89 -tstart 75 -fanmin 35 -fanmax 86</span>
 pause</code></pre></div>
 
-<p>Программа будет стремиться поддерживать температуру 79°, минимальная скорость вращения вентиляторов составляет 45%, а максимальная скорость - 80% и остановится при достижении температуры в 89° (<code>-ttli 85</code>)</p>
+<p>Программа будет стремиться поддерживать температуру 79°, минимальная скорость вращения вентиляторов составляет 35%, а максимальная скорость - 86% и остановится при достижении температуры в 89° (<code>-ttli 85</code>)</p>
 <p>
 <a href="items/examples/esm2.png" target="_blank">
 <img src="items/examples/esm2.png" alt="esm 2"></a>
