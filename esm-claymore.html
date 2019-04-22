@@ -93,7 +93,7 @@
 <li><code>-esm 2</code> — режим miner-proxy (например, coinotron.com),  </li>
 <li><code>-esm 3</code> — режим для nicehash.</li>
 </ol>
-
+<p>Параметр  <code>-esm</code> поможет устранить проблемы с подключением майнера к пулу.</p>
 
 <h3>Примеры использования</h3>
 <h3>Режим eth-proxy (по умолчанию), значение можно не указывать:</h3>
@@ -110,9 +110,15 @@ pause
 <div class="vaz"><pre><code>EthDcrMiner64.exe -epool europe.ethash-hub.miningpoolhub.com:20535 -ewal rgzrgz_leo.rgzrgz_leo -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 75 -ttli 85 -tstop 89 <span class="eth-grn">-esm 2</span>
 pause</code></pre></div>
 
-<h3>Режим ESM 3 (подойдет для пула minerall):</h3>
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool pool.minerall.io:3401 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30 <span class="eth-grn">-esm 3</span>
+<h3>Режим ESM 3 (подойдет для пула nicehash):</h3>
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewal 3HHG3zpxP4AmbKDR9iRy1c2bqAb4WKhNwm -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30 -allcoins 1 <span class="eth-grn">-esm 3</span>
 pause</code></pre></div>
+<h2>Как это работает внутри программы?</h2>
+
+<p>Большая часть программного обеспечения для майнинга (включая Claymore) предназначена для подключения к прокси-серверу, потому что именно этим пользуются пулы, так как было бы небезопасно открывать свои узлы в Интернете.</p>
+
+<p>&nbsp;Эти прокси-серверы реализуют такие вещи, как аутентификация (имена пользователей / воркеров, пароли и т. д.), Если пул требует определенный протокол и он не реализован, то пул будет принимать соединения, пытающиеся использовать его функции.</p>
+
 
 Изменить параметр можно в любом текстовом редакторе:
 <p>
