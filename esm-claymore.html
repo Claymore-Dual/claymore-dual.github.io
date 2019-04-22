@@ -5,14 +5,14 @@
 <!--[if IE 8]><html class="lt-ie9" lang="ru" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="ru" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
 <head>
-<title>Claymore ETC Miner Скачать последнюю версию v12.0 [2019]</title>
+<title>Esm 3 Claymore Miner настройка и описание параметра [2019]</title>
 <meta charset="utf-8" />
 <link rel="shortcut icon" href="items/favicon.ico" type="image/vnd.microsoft.icon" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 <meta name="MobileOptimized" content="width" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="description" content="что такое -etha и что лучше всего подходит для этого в Клейморе" />
+<meta name="description" content="что такое -Esm и что лучше всего подходит для этого в Клейморе" />
 
 <link rel="stylesheet" href="/css/ETH.css">
 <link rel="stylesheet" href="/css/global.base.css">
@@ -81,45 +81,55 @@
 	</div>
 </section>
 <section class="eth-art">
-<H1 class="eth-title"><a id="start">Скачать Claymore Ethereum Classic</a></h1>
+<H1 class="eth-title"><a id="start">Esm claymore что это за опция</a></h1>
 	<div class="eth-vi2">
-
+<H2>Что означает парамтер Esm</H2>
+<p>Параметр <code>-esm</code> - это режим добычи Эфириума для видеокарт AMD.</p>
+<h2>Значения esm</h2>
+<ol class="nnu">
+<li>0 - оптимизирован для быстрых карт; </li>
+<li>1 - оптимизирован для медленных карт;</li>
+<li>2 – для драйверов Linux gpu-pro; </li>
+<li>-1 автоматический выбор режима</li>
+</ol>
+<p>Программа автоматически подбирает оптимальный алгоритм (по умолчанию).</p>
+<p>Можно определять эти значения индивидуально для каждой видеокарты, например: "-esm 0,1,0"</p>
 
 
 <h3>Примеры использования</h3>
-Добыча ETC на пуле ethermine:
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool <span class="eth-grn">eu1-etc.ethermine.org:4444</span> -ewal 0xfcf2ba59016a4b2aff4097feba1d927deefcb5d4.claymore -epsw x -allpools 1 -allcoins etc -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
+Оптимизация для быстрых карт:
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba.claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 <span class="eth-grn">-etha 0</span> -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
 pause</code></pre></div>
+
+Оптимизация для медленных карт (старого поколения):
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba.claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 <span class="eth-grn">-etha 1</span> -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
+pause</code></pre></div>
+
+
+Оптимизация для драйверов Linux gpu-pro:
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba.claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 <span class="eth-grn">-etha 2</span> -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
+pause</code></pre></div>
+
+автоматический выбор режима:
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba.claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 <span class="eth-grn">-etha -1</span> -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
+pause</code></pre></div>
+
+Изменить параметр можно в любом текстовом редакторе:
 <p>
-<a href="items/examples/etc-ethermine.png" target="_blank">
-<img src="items/examples/etc-ethermine.png" alt="etc-ethermine"></a>
-</p>
-Добыча ETC на пуле nanopool:
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool etc-eu2.nanopool.org:19999 -ewal 0xfcf2ba59016a4b2aff4097feba1d927deefcb5d4 -eworker claymore -epsw x -allpools 1 -allcoins etc -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30
-pause</code></pre></div>
-
-
-Добыча ETC на пуле miningpoolhub:
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool europe1.ethereum-classic.miningpoolhub.com:20555 -ewal rgzrgz_leo.rgzrgz_leo -epsw 11 -esm 2 -allpools 1 -allcoins etc -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30
-pause</code></pre></div>
-
-
-Изменить пул и кошелек можно в любом текстовом редакторе.
-<p>
-<a href="items/examples/etc-ethermine2.png" target="_blank">
-<img src="items/examples/etc-ethermine2.png" alt="etc-ethermine2"></a>
+<a href="items/examples/etha.png" target="_blank">
+<img src="items/examples/etha.png" alt="etha"></a>
 </p>
 
 <p class="vaz2">Проект Claymore представляет самые <strong>последние версии</strong> программного обеспечения (исправляет все ошибки и баги  предыдущих версий)! Поэтому если у Вас <strong>старая</strong> версия, мы настоятельно советуем <strong>скачать</strong> последнюю версию Claymore's по ссылкам ниже, так как с каждым выходом новой версии добыча Эфира становится <strong>выгоднее</strong>!</p>
 </div>
 </section>
 <section class="eth-down">
-<div class="eth-title whitez1"><a id="download">Начните добывать ETC с Claymore's Dual  Miner </a></div>
+<div class="eth-title whitez1"><a id="download">Начните добывать Ethereum с Claymore's Dual  Miner </a></div>
 <div class="eth-download">
 	<div class="eth-flex">	
 		<div class="eth-ver">	
 		Последняя версия - v12.0
-		MD5: 412d0b4de420d5efe33e16daded4f808 *Claymore's Dual Ethereum Classic AMD+NVIDIA GPU Miner v12.0 - Windows.zip
+		MD5: 412d0b4de420d5efe33e16daded4f808 *Claymore's Dual Ethereum  AMD+NVIDIA GPU Miner v12.0 - Windows.zip
 		<span class="nev2">(<a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/v12.0/Linux-Claymore.s.dual.ethereum.miner.v12.0.zip">Скачать для Linux</a>)</span>	
 		</div>
 		<div class="eth-get">
