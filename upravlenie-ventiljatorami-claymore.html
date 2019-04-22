@@ -137,8 +137,8 @@ pause</code></pre></div>
 Программа будет Стремиться поддерживать температуру 79° (параметр <code>-tt 79</code>), минимальная скорость вращения вентиляторов составляет 30% (параметр <code>-fanmin 30</code>), а максимальная скорость - 80% (параметр <code>-fanmax 80</code>)
 
 
-<h3>Режим ESM 1 (подойдет для  пула ethermine):</h3>
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 75 -ttli 85 -tstop 89 <span class="eth-grn">-esm 1</span>
+<h3>Пример 2. Стремиться поддерживать температуру 79° и остановить при достижении макс. температуры:</h3>
+<div class="vaz"><pre><code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 1 <span class="eth-grn">-tt 79 -fanmin 30 -fanmax 80 -tstop 89</span>
 pause
 </code></pre></div>
 
