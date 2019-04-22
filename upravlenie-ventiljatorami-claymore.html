@@ -134,13 +134,15 @@
 <h3>Пример 1. Стремиться поддерживать температуру 79°:</h3>
 <div class="vaz"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 <span class="eth-grn">-tt 79 -fanmin 30 -fanmax 80</span>
 pause</code></pre></div>
-Программа будет Стремиться поддерживать температуру 79° (параметр <code>-tt 79</code>), минимальная скорость вращения вентиляторов составляет 30% (параметр <code>-fanmin 30</code>), а максимальная скорость - 80% (параметр <code>-fanmax 80</code>)
+<p>Программа будет Стремиться поддерживать температуру 79° (параметр <code>-tt 79</code>), минимальная скорость вращения вентиляторов составляет 30% (параметр <code>-fanmin 30</code>), а максимальная скорость - 80% (параметр <code>-fanmax 80</code>)</p>
 
 
 <h3>Пример 2. Стремиться поддерживать температуру 79° и остановить при достижении макс. температуры:</h3>
 <div class="vaz"><pre><code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 1 <span class="eth-grn">-tt 79 -fanmin 30 -fanmax 80 -tstop 89</span>
 pause
 </code></pre></div>
+<p>Программа будет Стремиться поддерживать температуру 79°, минимальная скорость вращения вентиляторов составляет 30%, а максимальная скорость - 80% и остановится при достижении температуры в 89° (<code>-tstop 89</code>)</p>
+
 
 
 <h3>Режим ESM 2 (подойдет для пула miningpoolhub):</h3>
