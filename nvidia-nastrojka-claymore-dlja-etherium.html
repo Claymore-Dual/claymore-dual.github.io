@@ -96,18 +96,26 @@
 <h2>Расширеное описание настроек</h2>
 <p>Вот несколько ссылок для скачивания, которые вам понадобятся, если вы хотите следовать этому руководству:</p>
 <ul>
-	<li>Последний драйвер nvidia (да, я говорю последний, почти все как говорят, чтобы использовать старую версию, это не правда) - 384.76, как я пишу: <a href="https://www.nvidia.com/Download/index.aspx?lang=en-us">https://www.nvidia.com/Download/index.aspx?lang=en-us</a></li>
+	<li>Последний драйвер nvidia (да, я говорю последний, почти все как говорят, чтобы использовать старую версию, это не правда) - 384.76, как я пишу: <a href="https://www.nvidia.com/Download/index.aspx?lang=en-us" target="_blank" rel="nofollow">https://www.nvidia.com/Download/index.aspx?lang=en-us</a></li>
 	<li>Claymore Майнер</li>
-	<li>MSI afterburner для разгона : <a href="http://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip">http://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip</a></li>
+	<li>MSI afterburner для разгона : <a href="http://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip" target="_blank" rel="nofollow">http://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip</a></li>
 </ul>
+<p>
+<a href="items/examples/NVIDIA_Control_Panel_2.png" target="_blank">
+<img src="items/examples/NVIDIA_Control_Panel_2.png" alt="NVIDIA_Control_Panel_2"></a>
+</p>
 <h2>Установка и настройка драйвера nvidia</h2>
-<p>Установка последнего драйвера должна быть простой, но необходима некоторая насстройка. После установки драйвера перейдите в «Панель настройки Nvidia» (меню правой кнопки мыши на рабочем столе). Вы должны увидеть следующий экран (мой на французском языке, но я переведу для вас то, что нужно было настроить). Перейдите к настройке «3D Settings» =&gt; «Manage 3D» и: <a href="https://image.ibb.co/f185vQ/NVIDIA_Control_Panel_2.jpg" target="_blank"><img alt="https://image.ibb.co/f185vQ/NVIDIA_Control_Panel_2.jpg" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image002.jpg" style="height:568px; width:700px" /></a></p>
+<p>Установка последнего драйвера должна быть простой, но необходима некоторая насстройка. После установки драйвера перейдите в «Панель настройки Nvidia» (меню правой кнопки мыши на рабочем столе). Вы должны увидеть следующий экран (мой на французском языке, но я переведу для вас то, что нужно было настроить). Перейдите к настройке «3D Settings» =&gt; «Manage 3D» и:</p>
+
 <ul>
 	<li>Убедитесь, что «CUDA - GPU» установлен на «Все»</li>
 	<li>Установите "DSR - Factors" в "2x"</li>
 	<li>(и самое главное) Установите для параметра «Оптимизировать производительность вычислений» значение «Да»</li>
 </ul>
-<p>Теперь у вас есть драйверы nvidia, оптимизированные для майнинга.<img alt=":)" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png" style="height:20px; width:20px" /> Установка Claymore Установка Claymore проста (просто распакуйте туда, куда вы хотите). Создайте новый файл в главном каталоге (mining_ether.bat):</p>
+<p>Теперь у вас есть драйверы nvidia, оптимизированные для майнинга.
+</p>
+<h2>Установка Claymore </h2>
+<p>Установка Claymore проста (просто распакуйте туда, куда вы хотите). Создайте новый файл в главном каталоге (mining_ether.bat):</p>
 <div>
 <p>setx GPU_FORCE_64BIT_PTR 0</p>
 <p>setx GPU_MAX_HEAP_SIZE 100</p>
