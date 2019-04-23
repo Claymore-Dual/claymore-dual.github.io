@@ -148,6 +148,10 @@ RewriteEngine on
     # Serve correct content types, and prevent mod_deflate double gzip.
     RewriteRule \.css\.gz$ - [T=text/css,E=no-gzip:1]
     RewriteRule \.js\.gz$ - [T=text/javascript,E=no-gzip:1]
+	
+RewriteRule ^(([^/]+/)*[^.]+)$ /$1.html [L]
+	
+	
 
     <FilesMatch "(\.js\.gz|\.css\.gz)$">
       # Serve correct encoding type.
