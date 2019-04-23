@@ -12,7 +12,7 @@
 <meta name="MobileOptimized" content="width" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="description" content="Claymore Dual Miner поддерживает майнинг монет на основе Ethash алгоритма (например, Ethereum) с 1% комисией." />
+<meta name="description" content="Настройкка программы Claymore Dual Miner для пула Nanopool." />
 
 <link rel="stylesheet" href="/css/ETH.css">
 <link rel="stylesheet" href="/css/global.base.css">
@@ -82,13 +82,12 @@
 	</div>
 </section>
 <section class="eth-art">
-<H1 class="eth-title"><a id="start">Как настроить Claymore для Dwarfpool</a></h1>
+<H1 class="eth-title"><a id="start">Как настроить Claymore для Nanopool</a></h1>
 	<div class="eth-vi2">
 <H2>Шаг 1. создайте или отредактируйте .bat файл</H2>
 
 <h3>Пример</h3>
-<div class="vaz2"><pre><code>EthDcrMiner64.exe -epool <span class="eth-grn">eth-ru2.dwarfpool.com:8008</span> -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker Claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30
-
+<div class="vaz2"><pre><code>EthDcrMiner64.exe -epool <span class="eth-grn">eth-eu2.nanopool.org:9999</span> -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30
 pause
 
 </code></pre></div>
