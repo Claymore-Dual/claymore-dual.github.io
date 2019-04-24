@@ -82,9 +82,10 @@
 	</div>
 </section>
 <section class="eth-art">
-<H1 class="eth-title"><a id="start">Как настроить Claymore для Nanopool</a></h1>
+<H1 class="eth-title"><a id="start">Майнинг на RX 550 в Claymore Dual Miner</a></h1>
 	<div class="eth-vi2">
-<H2>Шаг 1. создайте или отредактируйте .bat файл</H2>
+
+
 
 <h3>Пример</h3>
 <div class="vaz"><pre><code>EthDcrMiner64.exe -epool <span class="eth-grn">eth-eu2.nanopool.org:9999</span> -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
@@ -95,102 +96,9 @@ pause</code></pre></div>
 <img src="items/examples/nanopool.png" alt="nanopool"></a>
 <span class="img-tit nev">Так выглядит адрес пула в пакетном файле прогрммы</span>
 </p>
-<h3>Просто вставьте сюда Ваш коешелк</h3>
-<code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal <span class="eth-grn">ВАШ_КОШЕЛЕК</span> -eworker Claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30 
-pause
-</code>
-<H2>Выбор сервера nanopool</H2>
-<p>Для выбора наиболее подходящего для вас сервера в зависимости от вашего местоположения используйте:</p>
- <table class="responsive-table mar">
 
-    <thead>
-		<tr>
-			<th>Расположение</th>
-			<th>Адрес</th>
-			<th>Стратум порт</th>
-		</tr>
-    </thead>
-	<tbody>
-		<tr>
-			<td>Европа</td>
-			<td>eth-eu1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Европа</td>
-			<td>eth-eu2.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Восток США</td>
-			<td>eth-us-east1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Запад США</td>
-			<td>eth-us-west1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Азия</td>
-			<td>eth-asia1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Япония</td>
-			<td>eth-jp1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Австралия</td>
-			<td>eth-au1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-	</tbody>
-</table>
-<p>В этом примере мы использовали Европейские сервера, так что теперь внутри вашего текстового файла вы должны иметь:</p>
-<div class="vaz2"><pre><code>setx GPU_FORCE_64BIT_PTR 0
 
-setx GPU_MAX_HEAP_SIZE 100
 
-setx GPU_USE_SYNC_OBJECTS 1
-
-setx GPU_MAX_ALLOC_PERCENT 100
-
-setx GPU_SINGLE_ALLOC_PERCENT 100
-
-EthDcrMiner64.exe -epool eth-eu1.nanopool.org -ewal Ваш_Ethereum_Address.имя_фермы -epsw x
-</code></pre></div>
-<p>
-Замените «Ваш_Ethereum_Address» на свой адрес кошелька Ethereum (который начинается с 0x…), скопируйте его из другого текстового файла и вставьте его здесь.</p>
-<p>
-Замените «имя_фермы» на любое имя, которое вы хотели бы создать для своего майнера. Мы будем использовать «MiningRig1» для нашего примера, так что теперь у вас есть:</p>
-<div class="vaz"><pre><code>setx GPU_FORCE_64BIT_PTR 0
-
-setx GPU_MAX_HEAP_SIZE 100
-
-setx GPU_USE_SYNC_OBJECTS 1
-
-setx GPU_MAX_ALLOC_PERCENT 100
-
-setx GPU_SINGLE_ALLOC_PERCENT 100
-
-EthDcrMiner64.exe -epool eth-eu1.nanopool.org -wal 0x9147460980c93629e775783148591b7d0a0cbf2d.MiningRig1 -epsw x
-</code></pre></div>
-<p>
-Сохраните ваш файл как пакетный файл с расширением bat. Для этого выберите «Файл»> «Сохранить как», а затем в поле выберите его имя и введите «.bat» после имени. В поле «Тип файла» выберите «Все файлы» и нажмите «Сохранить».</p>
-<p>
-Поздравляем! Теперь у вас есть готовый пакетный файл для nanopool! Создайте ярлык для нового Bat файла  и отправьте его на рабочий стол.</p>
-<h2>Как узнать баланс</h2>
-<p>
-Что бы посмотреть свой баланс и статистику манйнинга, достаточно просто указать адрес свеого кошелька и нажать кнопку Show</p>
-<p>
-<a href="items/examples/nanopool-balance.png" target="_blank">
-<img src="items/examples/nanopool-balance.png" alt="nanopool-balance"></a>
-<span class="img-tit nev">узнть баланс</span>
-</p>
-<p>
-Вы так же можете посмотреть уже готовый пример, скачав архив с последней версией программы.</p>
 <p><p class="vaz2">Проект Claymore представляет самые <strong>последние версии</strong> программного обеспечения (исправляет все ошибки и баги  предыдущих версий)! Поэтому если у Вас <strong>старая</strong> версия, мы настоятельно советуем <strong>скачать</strong> последнюю версию Claymore's по ссылкам ниже, так как с каждым выходом новой версии добыча Эфира становится <strong>выгоднее</strong>!</p>
 </div>
 </section>
@@ -214,7 +122,7 @@ EthDcrMiner64.exe -epool eth-eu1.nanopool.org -wal 0x9147460980c93629e7757831485
 	</div>
 </div>
 </section>
-
+<section></section>
 
 
 
