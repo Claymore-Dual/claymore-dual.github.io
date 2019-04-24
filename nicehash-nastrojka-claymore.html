@@ -99,10 +99,38 @@
 <p><a href="https://www.nicehash.com/index.jsp?p=gstarted" target="_blank" rel="nofollow">https://www.nicehash.com/index.jsp?p=gstarted</a></p>
 <p>Мы покажем здесь только серверы для майнинга Ethash (DaggerHashimoto).</p>
 <p>Для Ethash: </p>
-<pre>Европа - stratum+tcp://daggerhashimoto.eu.nicehash.com:3353
-США - stratum+tcp://daggerhashimoto.usa.nicehash.com:3353
-Китай - stratum+tcp://daggerhashimoto.hk.nicehash.com:3353
-Япония - stratum+tcp://daggerhashimoto.jp.nicehash.com:3353</pre>
+ <table class="responsive-table mar">
+
+    <thead>
+		<tr>
+			<th>Расположение</th>
+			<th>Адрес</th>
+			<th>Стратум порт</th>
+		</tr>
+    </thead>
+	<tbody>
+		<tr>
+			<td>Европа</td>
+			<td>stratum+tcp://daggerhashimoto.eu.nicehash.com</td>
+			<td>3353</td>
+		</tr>
+		<tr>
+			<td>США</td>
+			<td>stratum+tcp://daggerhashimoto.usa.nicehash.com</td>
+			<td>3353</td>
+		</tr>
+		<tr>
+			<td>Китай</td>
+			<td>stratum+tcp://daggerhashimoto.hk.nicehash.com</td>
+			<td>3353</td>
+		</tr>
+		<tr>
+			<td>Япония</td>
+			<td>stratum+tcp://daggerhashimoto.jp.nicehash.com</td>
+			<td>3353</td>
+		</tr>
+	</tbody>
+</table>
 <p>Используйте сервер, который находится рядом с вами</p>
 <p>Вам также понадобится адрес кошелька BTC. <br />
 Вы можете использовать какой-либо адрес из блокчейна или любого другого кошелька.</p>
@@ -130,7 +158,7 @@ pause
 
 
 <h3>Просто вставьте сюда Ваш коешелк</h3>
-<code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal <span class="eth-grn">ВАШ_КОШЕЛЕК</span> -eworker Claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30 
+<code>EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewal <span class="eth-grn">ВАШ_КОШЕЛЕК</span> -eworker Claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30 
 pause
 </code>
 <p>
@@ -138,55 +166,7 @@ pause
 <img src="items/examples/nicehash.png" alt="nicehash-and-claymore"></a>
 </p>
 
-<H2>Выбор сервера nanopool</H2>
-<p>Для выбора наиболее подходящего для вас сервера в зависимости от вашего местоположения используйте:</p>
- <table class="responsive-table mar">
 
-    <thead>
-		<tr>
-			<th>Расположение</th>
-			<th>Адрес</th>
-			<th>Стратум порт</th>
-		</tr>
-    </thead>
-	<tbody>
-		<tr>
-			<td>Европа</td>
-			<td>eth-eu1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Европа</td>
-			<td>eth-eu2.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Восток США</td>
-			<td>eth-us-east1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Запад США</td>
-			<td>eth-us-west1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Азия</td>
-			<td>eth-asia1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Япония</td>
-			<td>eth-jp1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-		<tr>
-			<td>Австралия</td>
-			<td>eth-au1.nanopool.org</td>
-			<td>9999</td>
-		</tr>
-	</tbody>
-</table>
 <p>В этом примере мы использовали Европейские сервера, так что теперь внутри вашего текстового файла вы должны иметь:</p>
 <div class="vaz2"><pre><code>setx GPU_FORCE_64BIT_PTR 0
 
@@ -198,7 +178,7 @@ setx GPU_MAX_ALLOC_PERCENT 100
 
 setx GPU_SINGLE_ALLOC_PERCENT 100
 
-EthDcrMiner64.exe -epool eth-eu1.nanopool.org -ewal Ваш_Ethereum_Address.имя_фермы -epsw x
+EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewal Ваш_Ethereum_Address.имя_фермы -epsw x
 </code></pre></div>
 <p>
 Замените «Ваш_Ethereum_Address» на свой адрес кошелька Ethereum (который начинается с 0x…), скопируйте его из другого текстового файла и вставьте его здесь.</p>
