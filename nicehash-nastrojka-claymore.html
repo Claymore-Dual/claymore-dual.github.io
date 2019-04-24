@@ -85,7 +85,37 @@
 <H1 class="eth-title"><a id="start">Настройка Claymore для Nicehash</a></h1>
 	<div class="eth-vi2">
 <H2>Шаг 1. создайте или отредактируйте .bat файл</H2>
-
+<p>В сегодняшней инструкции мы хотим показать вам, как начать майнинг на Nicehash.com </p>
+<p>Nicehash платит Биткойном, поэтому вы будете добывать Ethash <br />
+или любую другую валюту, но получите биткойны. </p>
+<p>Чтобы начать зарабатывать на Nicehash.com, вам не нужен аккаунт, <br />
+вам просто нужно правильно настроить параметры майнинга, и все будет в порядке. <br />
+Чтобы настроить свой майнер, вам нужно знать, какой сервер <br />
+использовать, и вы найдете все серверы на этой странице:</p>
+<p><a href="https://www.nicehash.com/index.jsp?p=gstarted" title="Эта ссылка заберет вас с сайта steemit.com">https://www.nicehash.com/index.jsp?p=gstarted</a></p>
+<p>Мы покажем здесь только серверы для майнинга Ethash (DaggerHashimoto).</p>
+<p>Для Ethash: <br />
+stratum + tcp: //daggerhashimoto.eu.nicehash.com: 3353 ……… .EU <br />
+stratum + tcp: //daggerhashimoto.usa.nicehash.com: 3353 ……… США <br />
+страт + tcp: // daggerhashimoto. hk.nicehash.com:3353………..Китайская <br />
+страта + tcp: //daggerhashimoto.jp.nicehash.com: 3353 ………… ЯПОНИЯ</p>
+<p>Используйте сервер, который находится рядом с вами</p>
+<p>Вам также понадобится адрес кошелька BTC. <br />
+Вы можете использовать какой-либо адрес из блокчейна или любого другого кошелька.</p>
+<p>Для майнинга мы будем использовать Mining ферму  с 3xRX480 4GB ASUS.</p>
+<p>MSI Afterburner для настройки карт.</p>
+<h2>Настройки разгона</h2>
+<p>Частота ядра (МГц) 1075</p>
+<p>Частота памяти (МГц) 1950</p>
+<p>Предел мощности (%) +25</p>
+<p>Вольтаж (мВ) -84</p>
+<p>С этими настройками мы получаемм <br />
+около 30. 5 Mh/s для Ethereum.</p>
+<p>В качестве программного обеспечения для майнинга мы будем использовать Claymore's Dual Ethereum AMD+NVIDIA GPU Miner.</p>
+<p>Для майнинга ETH</p>
+<p>Вот файл .bat:</p>
+<p>Подождите некоторое время, чтобы получить результаты.</p>
+<p>Спасибо за просмотр и счастливого заработка!</p>
 <h3>Пример</h3>
 <div class="vaz"><pre><code>EthDcrMiner64.exe -epool <span class="eth-grn">eth-eu2.nanopool.org:9999</span> -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30
 pause</code></pre></div>
