@@ -417,10 +417,10 @@ height: 500px!important;
 }
 .eth-relative {position:relative;}
 .ccc-chart-v3 .chartTypeTabLinks {
-color: none;
+color: none!important;
 }
 .ccc-chart-v3 > div > div:nth-child(2)::before {
-    content: "none";
+    content: "none"!important;
 }
 
 
