@@ -405,7 +405,7 @@ line-height: 1.60;
 .cn .eth-button {
     max-width: 250px;
 }
-.tradingview-widget-container {
+.tradingview-widget-container > div {
     height: 500px;
 }
 
