@@ -50,9 +50,9 @@
 <meta name="yandex-verification" content="1facbca6aff9a0eb" />
 </head>
 
-
+<body>
 <div id="page-wrapper">
-  <div id="page" class="page at-mt eth-inner">
+  <div id="page" class="page at-mt">
 
 
 <div id="menu-bar" class="nav clearfix">
@@ -60,10 +60,10 @@
 
 		<div class="menu-toggle">
 			<ul class="menu clearfix">
-			<li class="leaf"><a href="https://claymore-dual.github.io/ru" title="">Главная</a></li>
-				<li class="first leaf"><a href="#start" title="">Быстрый старт</a></li>
-				<li class="leaf"><a href="#download" title="">Скачать</a></li>
-
+				<li class="first leaf"><a href="#start" title="">Getting Started</a></li>
+				<li class="leaf"><a href="#check" title="">My Balance</a></li>
+				<li class="leaf"><a href="#download" title="">Download</a></li>
+				<li class="last leaf"><a href="#FAQ" title="">FAQ</a></li>
 			</ul>
 		</div>  
 	</nav>
@@ -73,9 +73,10 @@
 	<div class="eth-header-flex">
 		<div class="eth-header-center eth-vi">
 			<div class="eth-header-composition">
-			<h2>Claymore's Dual Ethereum AMD+NVIDIA GPU Miner</h2>
-			<p class="eth-fast"><span class="green">Самый быстрый Ethereum</span>/Ethash майнер с <span class="green">самой низкой комиссией</span></p> 
-			<div class="eth-button"><i class="far fa-arrow-alt-circle-down"></i><a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/v12.0/Claymore.s.dual.ethereum.miner.-.widows.Password-claymore.zip">Скачать</a>
+			<h1>Claymore's Dual Ethereum AMD+NVIDIA GPU Miner
+			</h1>
+			<p class="eth-fast"><span class="green">Fastest Ethereum</span>/Ethash miner with <span class="green">lowest devfee</span></p> 
+			<div class="eth-button"><i class="far fa-arrow-alt-circle-down"></i><a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/v12.0/Claymore.s.dual.ethereum.miner.-.widows.Password-claymore.zip">Download Now</a>
 			</div>
 			</div>
 		</div>
@@ -84,146 +85,25 @@
 <section class="eth-art">
 <H1 class="eth-title"><a id="start">Настройка Claymore для Nicehash</a></h1>
 	<div class="eth-vi2">
-<H2>Шаг 1. создайте или отредактируйте .bat файл</H2>
-<p>В сегодняшней инструкции мы хотим показать вам, как начать майнинг на Nicehash.com </p>
-<p>
-<a href="items/screens/nicehash-and-claymore.png" target="_blank">
-<img src="items/screens/nicehash-and-claymore.png" alt="nicehash-and-claymore"></a>
-</p>
-<p>Nicehash платит Биткойном, поэтому вы будете добывать Ethash <br />
-или любую другую валюту, но получите биткойны. </p>
-<p>Чтобы начать зарабатывать на Nicehash.com, вам не нужен аккаунт, <br />
-вам просто нужно правильно настроить параметры майнинга, и все будет в порядке. <br />
-Чтобы настроить свой майнер, вам нужно знать, какой сервер <br />
-использовать, и вы найдете все серверы на этой странице:</p>
-<p><a href="https://www.nicehash.com/index.jsp?p=gstarted" target="_blank" rel="nofollow">https://www.nicehash.com/index.jsp?p=gstarted</a></p>
-<p>Мы покажем здесь только серверы для майнинга Ethash (DaggerHashimoto).</p>
-<p>Для Ethash: </p>
- <table class="responsive-table mar">
 
-    <thead>
-		<tr>
-			<th>Расположение</th>
-			<th>Адрес</th>
-			<th>Стратум порт</th>
-		</tr>
-    </thead>
-	<tbody>
-		<tr>
-			<td>Европа</td>
-			<td>stratum+tcp://daggerhashimoto.eu.nicehash.com</td>
-			<td>3353</td>
-		</tr>
-		<tr>
-			<td>США</td>
-			<td>stratum+tcp://daggerhashimoto.usa.nicehash.com</td>
-			<td>3353</td>
-		</tr>
-		<tr>
-			<td>Китай</td>
-			<td>stratum+tcp://daggerhashimoto.hk.nicehash.com</td>
-			<td>3353</td>
-		</tr>
-		<tr>
-			<td>Япония</td>
-			<td>stratum+tcp://daggerhashimoto.jp.nicehash.com</td>
-			<td>3353</td>
-		</tr>
-	</tbody>
-</table>
-
-<p>Используйте сервер, который находится рядом с вами</p>
-<p>Вам также понадобится адрес кошелька BTC. <br />
-Вы можете использовать какой-либо адрес из блокчейна или любого другого кошелька.</p>
-<p>Для майнинга мы будем использовать ферму  с 3xRX480 4GB ASUS.</p>
-<p>MSI Afterburner для настройки карт.</p>
-<h2>Настройки разгона</h2>
-<ul>
-	<li><strong>Частота ядра (МГц) 1075</strong></li>
-	<li><strong>Частота памяти (МГц) 1950</strong></li>
-	<li><strong>Предел мощности (%) +25</strong></li>
-	<li><strong>Вольтаж (мВ) -84</strong></li>
-</ul>
-
-<p>С этими настройками мы получаемм <br />
-около 30. 5 Mh/s для Ethereum.</p>
-<p>В качестве программного обеспечения для майнинга мы будем использовать Claymore's Dual Ethereum AMD+NVIDIA GPU Miner.</p>
-<p>Для майнинга ETH</p>
-<p>Вот .bat файл:</p>
-<h3>Пример</h3>
-<div class="vaz"><pre><code>EthDcrMiner64.exe -epool <span class="eth-grn">stratum+tcp://daggerhashimoto.eu.nicehash.com:3353</span> -ewal 3HHG3zpxP4AmbKDR9iRy1c2bqAb4WKhNwm -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30 -allcoins 1 -esm 3
-pause
-</code></pre></div>
-<p>Подождите некоторое время, чтобы получить результаты.</p>
-<p>Спасибо за просмотр и счастливого заработка!</p>
-
-
-
-<h3>Просто вставьте сюда Ваш коешелк</h3>
-<code>EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewal <span class="eth-grn">ВАШ_КОШЕЛЕК</span> -eworker Claymore -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -tt 79 -ttli 85 -tstop 89 -fanmin 30 
-pause
-</code>
-<p>
-<a href="items/examples/nicehash.png" target="_blank">
-<img src="items/examples/nicehash.png" alt="nicehash-and-claymore"></a>
-</p>
-
-
-<p>В этом примере мы использовали Европейские сервера, так что теперь внутри вашего текстового файла вы должны иметь:</p>
-<div class="vaz2"><pre><code>setx GPU_FORCE_64BIT_PTR 0
-
-setx GPU_MAX_HEAP_SIZE 100
-
-setx GPU_USE_SYNC_OBJECTS 1
-
-setx GPU_MAX_ALLOC_PERCENT 100
-
-setx GPU_SINGLE_ALLOC_PERCENT 100
-
-EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -ewal Ваш_Ethereum_Address.имя_фермы -epsw x
-</code></pre></div>
-<p>
-Замените «Ваш_Ethereum_Address» на свой адрес кошелька Ethereum (который начинается с 0x…), скопируйте его из другого текстового файла и вставьте его здесь.</p>
-<p>
-Замените «имя_фермы» на любое имя, которое вы хотели бы создать для своего майнера. Мы будем использовать «MiningRig1» для нашего примера, так что теперь у вас есть:</p>
-<div class="vaz"><pre><code>setx GPU_FORCE_64BIT_PTR 0
-
-setx GPU_MAX_HEAP_SIZE 100
-
-setx GPU_USE_SYNC_OBJECTS 1
-
-setx GPU_MAX_ALLOC_PERCENT 100
-
-setx GPU_SINGLE_ALLOC_PERCENT 100
-
-EthDcrMiner64.exe -epool stratum+tcp://daggerhashimoto.eu.nicehash.com:3353 -wal 0x9147460980c93629e775783148591b7d0a0cbf2d.MiningRig1 -epsw x
-</code></pre></div>
-<p>
-Сохраните ваш файл как пакетный файл с расширением bat. Для этого выберите «Файл»> «Сохранить как», а затем в поле выберите его имя и введите «.bat» после имени. В поле «Тип файла» выберите «Все файлы» и нажмите «Сохранить».</p>
-<p>
-Поздравляем! Теперь у вас есть готовый пакетный файл для Nicehash! Создайте ярлык для нового Bat файла  и отправьте его на рабочий стол.</p>
-
-<p>
-Вы так же можете посмотреть уже готовый пример, скачав архив с последней версией программы.</p>
-<p><p class="vaz2">Проект Claymore представляет самые <strong>последние версии</strong> программного обеспечения (исправляет все ошибки и баги  предыдущих версий)! Поэтому если у Вас <strong>старая</strong> версия, мы настоятельно советуем <strong>скачать</strong> последнюю версию Claymore's по ссылкам ниже, так как с каждым выходом новой версии добыча Эфира становится <strong>выгоднее</strong>!</p>
 </div>
 </section>
 
 <section class="eth-down">
-<div class="eth-title whitez1"><a id="download">Начните добывать Ethereum с Claymore's Dual  Miner </a></div>
+<div class="eth-title whitez1"><a id="download">Getting Started With Ethereum Mining</a></div>
 <div class="eth-download">
 	<div class="eth-flex">	
 		<div class="eth-ver">	
-		Последняя версия - v12.0
+		Latest version is v12.0
 		MD5: 412d0b4de420d5efe33e16daded4f808 *Claymore's Dual Ethereum  AMD+NVIDIA GPU Miner v12.0 - Windows.zip
-		<span class="nev2">(<a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/v12.0/Linux-Claymore.s.dual.ethereum.miner.v12.0.zip">Скачать для Linux</a>)</span>	
+		<span class="nev2">(<a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/v12.0/Linux-Claymore.s.dual.ethereum.miner.v12.0.zip">Download for Linux</a>)</span>	
 		</div>
 		<div class="eth-get">
-		<span class="eth-password">Пароль: claymore</span>
+		<span class="eth-password">Password: claymore</span>
 		<div class="eth-button down"><i class="far fa-arrow-alt-circle-down"></i>
-		<a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/v12.0/Claymore.s.dual.ethereum.miner.-.widows.Password-claymore.zip">Скачать сейчас (Windows x64)</a>
+		<a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/v12.0/Claymore.s.dual.ethereum.miner.-.widows.Password-claymore.zip">Download Now (Windows x64)</a>
 		</div>
-		<span class="eth-mirror">(<a href="https://mega.nz/#!HPZj3SCb!HiRcmdXhX1IOL82snugrutXMJKWu84qX3YPjDYg1XzI" target="_blank" rel="nofollow">зеркало</a>)</span>
+		<span class="eth-mirror">(<a href="https://mega.nz/#!HPZj3SCb!HiRcmdXhX1IOL82snugrutXMJKWu84qX3YPjDYg1XzI" target="_blank" rel="nofollow">mirror</a>)</span>
 		</div>	
 	</div>
 </div>
