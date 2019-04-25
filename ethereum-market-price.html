@@ -145,34 +145,50 @@ embedder.parentNode.appendChild(s);
 })();
 </script>
 </div>
-<div>
-<script type="text/javascript">
-baseUrl = "https://widgets.cryptocompare.com/";
-var scripts = document.getElementsByTagName("script");
-var embedder = scripts[ scripts.length - 1 ];
-var cccTheme = {"General":{"borderWidth":"1px","borderColor":"#eee","borderRadius":"15px 15px 15px  15px","headerTextSize":"18px","headerText":""},"Form":{"borderRadius":"15px 15px 15px 15px","labelFrom":"I give","labelTo":"I get"}};
-(function (){
-var appName = encodeURIComponent(window.location.hostname);
-if(appName==""){appName="local";}
-var s = document.createElement("script");
-s.type = "text/javascript";
-s.async = true;
-var theUrl = baseUrl+'serve/v1/coin/converter?fsym=ETH&tsyms=USD,EUR,RUB';
-s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
-embedder.parentNode.appendChild(s);
-})();
-</script>
-</div>
-<div clas="eth-relative">
-
-<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1420_RC05/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"ethereum","geo":"","time":"today 3-m"}],"category":0,"property":""}, {"exploreQuery":"q=ethereum&date=today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
 
 
 
+<div class="tradingview-widget-container eth-500">
+  <div class="tradingview-widget-container__widget"></div>
+
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+  {
+  "showIntervalTabs": true,
+  "width": "100%",
+  "colorTheme": "light",
+  "isTransparent": false,
+  "locale": "en",
+  "symbol": "KRAKEN:ETHUSD",
+  "interval": "1m",
+  "height": "100%"
+}
+  </script>
 </div>
 
+<div class="tradingview-widget-container eth-500">
+  <div class="tradingview-widget-container__widget"></div>
+
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+  {
+  "width": "100%",
+  "height": "100%",
+  "defaultColumn": "overview",
+  "screener_type": "crypto_mkt",
+  "displayCurrency": "USD",
+  "colorTheme": "light",
+  "transparency": true,
+  "locale": "en"
+}
+  </script>
+</div>
 
 
+
+
+
+
+
+<a class="twitter-timeline" data-height="750" href="https://twitter.com/ethereum?ref_src=twsrc%5Etfw">Tweets by ethereum</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
 
@@ -204,8 +220,8 @@ embedder.parentNode.appendChild(s);
 <p>So what is Ethereum?</p>
 
 <p>Now let's go back to Bitcoin, so when we talked about Bitcoin, we said: “okay bitcoin is a technology which is based on blockchain” same goes for Ethereum, but why do we need Ethereum when you have Bitcoin?</p>
-<p>Now think about this. When you say blockchain doctrine will make internet decentralized again. When you say it was centralized because of all these big companies whatever you do online goes through this big companies right we have Google, Amazon, Facebook - they are managing the entire internet now.</p>
-<p>So we want to make it decentralized and we said: “okay let's use blockchain, but the only thing which we know about the blockchain, was Bitcoin.” But if we talk about Bitcoin, Bitcoin is only a peer-to-peer electronic cash system.</p>
+<p>Now think about this. When you say: "blockchain doctrine will make internet decentralized again." When you say: "it was centralized because of all these big companies whatever you do online goes through this big companies right we have Google, Amazon, Facebook - they are managing the entire internet now."</p>
+<p>So we want to make it decentralized and we said: “okay let's use blockchain, but the only thing which we know about the blockchain, was Bitcoin.” But if we talk about Bitcoin, Bitcoin is only a peer-to-peer electronic cash system...</p>
 <div class="video mar">
 <iframe width="1263" height="712" src="https://www.youtube.com/embed/3_CYeEL9hwI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
