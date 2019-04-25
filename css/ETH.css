@@ -525,10 +525,13 @@ min-height: 380px;
 .eth-gpu {
     min-height: 422px;
 }
+
 .eth-button {
     max-width: 205px;
 }
-
+.eth-charts .eth-button {
+    max-width: 280px;
+}
 }
 @media all and (min-width:1024px) and (max-width:1365){
 .eth-header {	
