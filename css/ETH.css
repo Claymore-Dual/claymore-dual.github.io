@@ -419,6 +419,9 @@ height: 500px!important;
 .ccc-chart-v3 .chartTypeTabLinks {
 color: none;
 }
+.ccc-chart-v3 > div > div:nth-child(2)::before {
+    content: "none";
+}
 
 
  .eth-post-foot .eth-vi2 {font-size:11px;line-height: 1.50;max-width: 900px;}
