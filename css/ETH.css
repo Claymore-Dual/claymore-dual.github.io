@@ -413,6 +413,7 @@ line-height: 1.60;
     display: none;
 }
 .eth-relative {position:relative;}
+
  .eth-post-foot .eth-vi2 {font-size:11px;line-height: 1.50;max-width: 900px;}
 @media all and (min-width:350px) and (max-width:1023px){
 #page-wrapper .eth-menu ul li {
