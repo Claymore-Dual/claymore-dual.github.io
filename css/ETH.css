@@ -408,6 +408,9 @@ line-height: 1.60;
 .tradingview-widget-container > div {
     height: 500px;
 }
+.eth-500 {
+    height: 500px;
+}
 .cryptonatorwidget > div:nth-child(2) {
 
     display: none;
