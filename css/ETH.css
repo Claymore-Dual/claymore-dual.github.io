@@ -408,8 +408,8 @@ line-height: 1.60;
 .tradingview-widget-container > div {
     height: 500px;
 }
-.eth-500 {
-    height: 500px;
+.eth-500 > iframe {
+height: 500px!important;
 }
 .cryptonatorwidget > div:nth-child(2) {
 
