@@ -400,30 +400,38 @@
 </p>
 <p>В зависимости от вашего местоположения вы хотите подключиться к ближайшему к вам серверу и обновить текстовую строку для сервера:</p>
 <code>eu1.ethermine.org:4444</code>
-<p>Для наиболее подходящего для вас сервера в зависимости от вашего местоположения:</p>
-<p>Северная Америка (Восток): us1.ethermine.org:4444 или us1.ethermine.org:14444</p>
-<p>Северная Америка (Запад): us2.ethermine.org:4444 или us2.ethermine.org:14444</p>
-<p>Европа (Франция): eu1.ethermine.org:4444 или eu1.ethermine.org:14444</p>
+<p>Для выбора наиболее подходящего для вас сервера в зависимости от вашего местоположения используйте:</p>
+<blockquote><pre><code>
+Северная Америка (Восток): us1.ethermine.org:4444 или us1.ethermine.org:14444
 
-<p>Европа (Германия): eu2.ethermine.org:4444 или eu2.ethermine.org:14444</p>
-<p>Азия: asia1.ethermine.org:4444 или asia1.ethermine.org:14444</p>
+Северная Америка (Запад): us2.ethermine.org:4444 или us2.ethermine.org:14444
+
+Европа (Франция): eu1.ethermine.org:4444 или eu1.ethermine.org:14444
+
+Европа (Германия): eu2.ethermine.org:4444 или eu2.ethermine.org:14444
+
+Азия: asia1.ethermine.org:4444 или asia1.ethermine.org:14444</code>
+</pre></blockquote>
+
 <p>В этом примере я установил пул для Восточного побережья США, так что теперь внутри вашего текстового файла вы должны иметь:</p>
-<p>setx GPU_FORCE_64BIT_PTR 0</p>
-<p>setx GPU_MAX_HEAP_SIZE 100</p>
-<p>setx GPU_USE_SYNC_OBJECTS 1</p>
-<p>setx GPU_MAX_ALLOC_PERCENT 100</p>
-<p>setx GPU_SINGLE_ALLOC_PERCENT 100</p>
-<p>EthDcrMiner64.exe -epool us1.ethermine.org:4444 -ewal Your_Ethereum_Address. RigName -epsw x</p>
+<div class="vaz"><pre><code>setx GPU_FORCE_64BIT_PTR 0
+setx GPU_MAX_HEAP_SIZE 100
+setx GPU_USE_SYNC_OBJECTS 1
+setx GPU_MAX_ALLOC_PERCENT 100
+setx GPU_SINGLE_ALLOC_PERCENT 100
+EthDcrMiner64.exe -epool us1.ethermine.org:4444 -ewal <span class="eth-grn">Your_Ethereum_Address</span>.<span class="eth-grn">RigName</span> -epsw x</code></pre></div>
 <ul>
-	<li>Замените «Your_Ethereum_Address» на свой адрес кошелька Ethereum (который начинается с 0x…), скопируйте его из другого текстового файла и вставьте его здесь.</li>
-	<li>Замените «RigName» на любое имя, которое вы хотели бы создать для своего майнера. Мы будем использовать «MiningRig1» для нашего примера, так что теперь у вас есть:</li>
+	<li>Замените <span class="eth-grn">Your_Ethereum_Address</span> на свой адрес кошелька Ethereum (который начинается с 0x…), скопируйте его из другого текстового файла и вставьте его здесь.</li>
+	<li>Замените <span class="eth-grn">RigName</span> на любое имя, которое вы хотели бы создать для своего майнера. Мы будем использовать «MiningRig1» для нашего примера, так что теперь у вас есть:</li>
 </ul>
-<p>setx GPU_FORCE_64BIT_PTR 0</p>
-<p>setx GPU_MAX_HEAP_SIZE 100</p>
-<p>setx GPU_USE_SYNC_OBJECTS 1</p>
-<p>setx GPU_MAX_ALLOC_PERCENT 100</p>
-<p>setx GPU_SINGLE_ALLOC_PERCENT 100</p>
-<p>EthDcrMiner64.exe -epool us1.ethermine.org:4444 -wal 0x46064Df3e898488B19bC985A0973be51698bD6bb.MiningRig1 -epsw x</p>
+
+<div class="vaz"><pre><code>setx GPU_FORCE_64BIT_PTR 0
+setx GPU_MAX_HEAP_SIZE 100
+setx GPU_USE_SYNC_OBJECTS 1
+setx GPU_MAX_ALLOC_PERCENT 100
+setx GPU_SINGLE_ALLOC_PERCENT 100
+EthDcrMiner64.exe -epool us1.ethermine.org:4444 -wal 0x9147460980c93629e775783148591b7d0a0cbf2d.MiningRig1 -epsw x</code></pre></div>
+
 <p>Сохраните ваш файл как пакетный файл с расширением bat. Для этого выберите «Файл» -  «Сохранить как», а затем в поле выберите его имя и введите «.bat» после имени. В поле «Тип файла» выберите «Все файлы» и нажмите «Сохранить».</p>
 <p>Поздравляю! Теперь у вас есть готовый пакетный файл! Создайте ярлык для нового Bat файла и отправьте его на рабочий стол. Затем вы можете удалить текстовую версию файла.</p>
 <p>
