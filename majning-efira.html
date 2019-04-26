@@ -123,10 +123,43 @@
 <p>Благодаря автоматической настройке вычислительной сложности, решения блока в блокчейне Ethereum способен поддерживать интервалы ~ 13 секунд. Вы заметите сложность<u>,</u> внимательно коррелирующую с хэшрейтом.</p>
 <p>Следующий очевидный вопрос заключается в том, что движет изменениями в скорости и сложности в первую очередь? Ответ - цена! Как видно на рисунке ниже, хэшрейт следовал (с некоторым заметным лагом) цене ETH:</p>
 <p>
-<a href="items/start/how/account.png" target="_blank">
-<img src="items/start/how/account.png" alt="claymore"></a>
+<a href="items/start/how/price.png" target="_blank">
+<img src="items/start/how/price.png" alt="claymore"></a>
 </p>
-Дневной график стоимости доллара Эфириума, предоставлен  <a href="https://www.tradingview.com/chart/?symbol=Kraken:ETHUSD" target="_blank">Trading View</a></p>
+<div class="tradingview-widget-container">
+  <div id="tradingview_2faef"></div>
+
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "autosize": true,
+  "symbol": "KRAKEN:ETHUSD",
+  "timezone": "Etc/UTC",
+  "theme": "Light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": true,
+  "withdateranges": true,
+  "range": "ytd",
+  "hide_side_toolbar": false,
+  "allow_symbol_change": true,
+  "details": true,
+  "hotlist": true,
+  "calendar": true,
+  "news": [
+    "stocktwits",
+    "headlines"
+  ],
+  "show_popup_button": true,
+  "popup_width": "1000",
+  "popup_height": "650",
+  "container_id": "tradingview_2faef"
+}
+  );
+  </script>
+</div>
 <h2>2. Должен ли я добывать Ethereum?</h2>
 <p>Вот несколько веских причин, чтобы добывать Ethereum:</p>
 <ul>
