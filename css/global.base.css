@@ -530,7 +530,7 @@ div.messages {
 img {
   height: auto;
   -ms-interpolation-mode: bicubic;
-border-radius: 6px;
+border-radius: 10px;
 }
 
 /* Ethan Marcotte - http://front.ie/l8rJaA */
