@@ -115,7 +115,7 @@
 <h2>Основы Эфириума Блокчейн</h2>
 <p>Прежде чем мы углубимся в детали того, как добывать эфир, важно немного разобраться в блокчейне Эфириума. Неудивительно, что основы блокчейна Ethereum очень похожи на Биткойн. </p>
 <p>Хотя концептуально они очень похожи, существуют значительные технические различия. Некоторые из них более очевидны; Например, блоки Ethereum добавляются каждые 13 секунд (в среднем), а блоки биткойна добавляются каждые 10 минут (в среднем).</p>
-<p>В качестве награды майнеры Ethereum получают 3 ETH плюс всю комиссию за транзакции и обработку кода (или газ), содержащиеся в их блоке.</p>
+<p class="vaz">В качестве награды майнеры Ethereum получают 3 ETH плюс всю комиссию за транзакции и обработку кода (или газ), содержащиеся в их блоке.</p>
 <p>Что касается алгоритма майнинга, Ethereum использует алгоритм хеширования, известный Ethash, который отличается от хэша Биткойна. Ethash несовместим со специальным хеширующим оборудованием (ASIC), разработанным для майнинга биткойнов. Кроме того, это алгоритм памяти, что означает, что он разработан, чтобы противостоять разработке ASIC для майнинга Ethereum. Вместо этого Ethash намеренно лучше всего подходит для майнинга на GPU.</p>
 <h2>Хэшрейт, Сложность и Цена</h2>
 <p>Если предположить, что количество оборудования, предназначенного для майнинга Ethereum, растет, почему блоки не добываются быстрее, так что бы среднее время 15-секундного блока уменьшилось?</p>
@@ -148,9 +148,15 @@
 	<li>Стоимость оборудования (в долларах США). Укажите здесь (в долларах США), сколько вы заплатили (или собираетесь заплатить) за свой видеокарта и любое другое оборудование для майнинга.</li>
 	<li>Стоимость электроэнергии (USD / кВтч): введите цену на электроэнергию, как указано в счете за коммунальные услуги. </li>
 </ul>
-<p><img alt="https://99bitcoins.com/wp-content/uploads/2018/10/ETH_calc.png" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png" style="height:380px; width:801px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>Результат ввода доходности появится под калькулятором при вводе значений:</p>
-<p><img alt="https://99bitcoins.com/wp-content/uploads/2018/10/ETH_calc_output.png" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image003.png" style="height:654px; width:798px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>* В этом примере я использовал видеокарту 1080Ti с коммунальной стоимостью 20 центов за кВт/ч, без майнинга. Как видно из этого примера, эта установка не окупится даже после года майнинга…</p>
 <p>Помните, что в зависимости от вашей предполагаемой установки может потребоваться купить новый блок питания (PSU) для работы вашего оборудования. Электрически эффективный блок питания стоит дороже, но экономит затраты на электроэнергию в долгосрочной перспективе.</p>
 <p>Самое главное, важно понимать, что сложность и цена являются переменными, то есть они могут и, вероятно, будут значительно меняться со временем. Получаемый вами показатель рентабельности верен только на момент расчета.</p>
@@ -188,7 +194,10 @@
 <h2>Шаг 1: Установите драйверы вашей видеокарты</h2>
 <p><strong>Видеокарты AMD:</strong> перейдите на <a href="https://amd.com/" target="_blank" rel="nofollow">amd.com,</a> затем выберите «Поддержка и драйверы».</p>
 <p>Введите информацию о вашем GPU и нажмите «Показать результаты»</p>
-<p><img alt="Драйвер AMD" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image005.jpg" style="height:532px; width:322px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>Нажмите кнопку Загрузить для текущего драйвера. Либо выберите «Загрузить предыдущие драйверы и программное обеспечение» с правой стороны, чтобы выбрать более старые версии. Это рекомендуется, поскольку некоторые версии драйверов известны как стабильные для майнинга (в зависимости от ваших карт), например:</p>
 <ul>
 	<li>R9 и старше - используйте 15.12</li>
@@ -196,11 +205,20 @@
 	<li>RX 5XX Series - поскольку они более новые, я бы порекомендовал сидеть с текущим драйвером на данный момент</li>
 </ul>
 
-<p><img alt="AMD Driver2" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png" style="height:545px; width:793px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p><strong>Видеокарты Nvidia:</strong> чтобы получить последние версии драйверов Nvidia GeForce, перейдите по <a href="https://www.geforce.com/drivers" target="_blank" rel="nofollow">ссылке https://www.geforce.com/drivers</a> . Введите данные своей карты и нажмите «Начать поиск». Загрузите текущую версию драйвера из результатов.</p>
-<p><img alt="Nvidia Driver" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image007.png" style="height:665px; width:1151px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>Установите драйверы GPU, как обычно (Next, Next, Ok и т. д.) И перезагрузите компьютер. Вы узнаете, что ваши видеокарты распознаются правильно, если вы зайдете в диспетчер устройств (поиск в строке поиска Windows), и вы не увидите никаких предупреждающих знаков на своих видеокартах. Это должно выглядеть примерно так:</p>
-<p><img alt="Графические процессоры в диспетчере устройств" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png" style="height:550px; width:626px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>Совет по устранению неполадок: некоторые майнеры успешно установили сразу все видеокарты, а затем установили драйверы. Другие предпочитают другой метод, в котором они сначала устанавливают одну карту, устанавливают драйверы и выключают систему.</p>
 <p>Пока система выключена, они устанавливают остальные видеокарты. Когда они это сделают, они снова включат сборку и дадут всем видеокартам быть узнанным в Windows. </p>
 <p>Обратите внимание, что вы, вероятно, почувствуете, что система зависает, и увидите несколько мерцаний или кратких черных экранов, пока каждая карта обнаруживается Windows.</p>
@@ -209,14 +227,29 @@
 <p>Примечание. Шаги 2-4 объясняют, как загрузить официальный кошелек Ethereum, но для этого потребуется дождаться синхронизации полной цепочки блоков Ethereum. </p>
 <p>Чтобы пропустить это и начать работать намного быстрее, перейдите к шагу 5 и создайте кошелек, используя вместо этого MyEtherWallet или откройте кошелек прямо на бирже, например <a href="https://www.binance.com/?ref=26861559" target="_blank" rel="nofollow">Binance</a>.</p>
 <p>В этом руководстве я покажу вам, как установить официальный кошелек <a href="https://github.com/ethereum/mist/releases" target="_blank" rel="nofollow">Mist</a> с его дружественным и знакомым графическим интерфейсом:</p>
-<p><img alt="туман" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image009.png" style="height:454px; width:566px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>В пакете Mist находится кошелек Ethereum, который вам понадобится для получения прибыли от майнинга. </p>
 <p>Mist также включает в себя браузер Ethereum с различными функциями, такими как обмен сообщениями, социальная сеть и учебные пособия.</p>
 <p>Как подсказка, эти учебные пособия и социальная сеть являются полезными учебными ресурсами. Не бойтесь спрашивать у сообщества Ethereum!</p>
 <p>Чтобы скачать Mist, зайдите на <a href="https://github.com/ethereum/mist/releases" target="_blank" rel="nofollow">https://github.com/ethereum/mist/releases</a> и выберите самый последний выпуск:</p>
-<p><em><img alt="Эфириум Скачать" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png" style="height:614px; width:905px" /></em></p>
-<p>Выберите последний выпуск, он будет иметь наибольшее число:<em><img alt="Выберите туман" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image011.png" style="height:396px; width:1078px" /></em> прокрутите вниз до раздела «Загрузки». Вы можете выбрать Mist или отдельный кошелек Ethereum.</p>
-<p><em><img alt="Скачать файл" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png" style="height:396px; width:1078px" /></em></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
+<p>Выберите последний выпуск, он будет иметь наибольшее число:
+ прокрутите вниз до раздела «Загрузки». Вы можете выбрать Mist или отдельный кошелек Ethereum.</p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
+
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>Выберите запоминающуюся папку для загрузки для файла «Ethereum Wallet». Распакуйте его и обратите внимание, в какую папку он был извлечен. Перейдите в новую папку, найдите и запустите приложение Ethereum.</p>
 <h2>Шаг 3: Синхронизировать блокчейн</h2>
 <p>Следующим шагом будет просто подождать, пока блокчейн Ethereum загрузится и синхронизируется. Это более 10 гигабайт, поэтому этот процесс может занять некоторое время ...</p>
@@ -224,8 +257,16 @@
 <h2>Шаг 4: Настройте свой кошелек</h2>
 <p>Затем откройте кошелек Ethereum и создайте новый аккаунт и кошелек. Этот кошелек будет содержать адрес выплат, по которому вы будете получать вознаграждения за майнинг из вашего пула или напрямую из блокчейна.</p>
 
-<p><img alt="Эфириум аккаунт" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image013.png" style="height:774px; width:1078px" />Добавьте свой новый аккаунт, дайте ему запоминающееся имя майнинга. Храните пароль надежно!</p>
-<p><a href="https://99bitcoins.com/wp-content/uploads/2016/07/add-wallet.png"><img alt="добавить кошелек" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image014.png" style="height:460px; width:1291px" /></a></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
+
+<p>Добавьте свой новый аккаунт, дайте ему запоминающееся имя майнинга. Храните пароль надежно!</p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>После создания Учетной записи добавьте кошелек и запишите или скопируйте в текстовый файл уникальный адрес. Этот адрес будет начинаться с символов «0x». Это необходимо для получения вознаграждений за майнинг ETH!</p>
 <h2>Примечание о Geth:</h2>
 <p>Mist также содержит Geth, популярный интерфейс командной строки. Вы можете выбрать для загрузки только <a href="https://github.com/ethereum/go-ethereum/releases" target="_blank" rel="nofollow">самое последнее приложение Geth</a> для своей системы, которое способно выполнять все функции Mist (и даже больше) из командной строки. </p>
@@ -234,31 +275,58 @@
 <h2>Шаг 5: Установите кошелек с MyEtherWallet.com</h2>
 <p>Примечание: пожалуйста, остерегайтесь фишинговых сайтов. Не вводите свой ключ на веб-сайте, на который вы пришли, нажав на ссылку. Всегда трижды проверяйте домен. Настоящим сайтом является MyEtherWallet.com.</p>
 <p>Введите надежный пароль и нажмите «Создать новый кошелек»:</p>
-<p><img alt="MyEtherWallet Step1" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image015.png" style="height:547px; width:771px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>Загрузите «Файл хранилища ключей» и нажмите «Я понимаю». Продолжить.»</p>
-<p><img alt="MyEtherWallet Шаг 2" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image016.png" style="height:457px; width:752px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>Сохраните ваш личный ключ. Хорошей практикой является открытие блокнота и ввод вашей информации - пароля, закрытого ключа и вашего адреса Ethereum (который вы вскоре получите). </p>
 <p>Сохраните этот текстовый файл вместе с файлом Keystore в зашифрованном файле (используя WinRar или аналогичную программу).</p>
 <p>После этого сохраните его копию на USB-накопителе или в облачном хранилище и удалите отдельные файлы (сохраняя только зашифрованный файл в цифровом виде).</p>
-<p><img alt="MyEtherWallet Шаг 3" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image017.png" style="height:445px; width:622px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>Нажмите <strong>Сохранить</strong> свой адрес, а затем выберите переключатель «Файл хранилища ключей». Нажмите «Выбрать файл кошелька», найдите недавно загруженный файл хранилища ключей (который начинается с «UTC ...») и выберите его.</p>
-<p><img alt="MyEtherWallet Шаг 4" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image018.png" style="height:509px; width:1012px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>Затем вам будет предложено ввести пароль еще раз</p>
-<p><img alt="MyEtherWallet Шаг 5" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image014.png" style="height:460px; width:1291px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>После разблокировки вы можете прокрутить вниз и увидеть «Ваш адрес» - это адрес вашего кошелька Ethereum, который мы будем использовать для майнинга. Сохраните его в отдельный текстовый файл блокнота и сохраните его на рабочем столе для быстрого доступа</p>
 <p>Разрешите поделиться этим адресом, поскольку именно так люди будут отправлять вам ETH и так вы будете получать выплаты за майнинг, но никогда не сообщайте свой <strong>закрытый</strong> ключ!</p>
-<p><img alt="MyEW5" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image019.png" style="height:422px; width:677px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <h2>Шаг 6: Загрузите Claymore Ethereum Miner</h2>
 <p>Мы собираемся использовать очень популярное программное обеспечение для майнинга Ethereum под названием Claymore Miner.</p>
 <p>Загрузите текущую версию по ссылкам для скачивания в Github или Mega (не используйте ссылки других людей). Текущая версия на момент написания этой статьи - 12.0.</p>
-<p><strong><img src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image021.jpg" style="height:151px; width:623px" /></strong></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>Обратите внимание, что при загрузке Claymore Miner Windows может выдать предупреждение, но если вы воспользовались ссылкой для скачивания Claymore, вы можете проигнорировать это.</p>
 <p>После загрузки извлеките папку на рабочий стол для быстрого доступа.</p>
 <h2>Шаг 7. Настройте некоторые параметры Windows перед майнингом.</h2>
 <p>Некоторые настройки должны быть изменены в Windows, чтобы подготовиться к майнингу:</p>
 <ol>
 	<li>Во-первых, вы не хотите, чтобы ваш компьютер переходил в спящий режим, поскольку это будет прерывать майнинг, поэтому зайдите в настройки электропитания и установите для него значение «Никогда», чтобы отключить  «перевести в спящий режим».</li>
-	<li>Измените файл подкачки и вручную установите его в 16384 МБ (это 16 ГБ). <img src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image021.jpg" style="height:151px; width:623px" /></li>
+	<li>Измените файл подкачки и вручную установите его в 16384 МБ (это 16 ГБ). 
+	
+	<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
+	</li>
 	<li>Чтобы свести к минимуму сбои в работе майнинга вы можете также <strong>отключить обновления Windows</strong>. Если вы чувствуете себя в большей безопасности, оставив их включенными, вы можете сделать это и просто понять, что есть очень частые обновления, которые иногда <strong>перезагружают</strong> вашу систему без вашего участия и, следовательно, <strong>останавливают</strong> майнинг.</li>
 	<li>Если вы используете Защитник Windows или другую антивирусную программу, добавьте в нее <strong>исключение</strong>, чтобы он не помечал исполняемый файл Claymore mining «EthDcrMiner64.exe» как вирус или пытался отключить / удалить его.</li>
 </ol>
@@ -267,7 +335,10 @@
 <p>Первым шагом будет выбор пула майнинга Ethereum. Есть из чего выбирать, но мы рекомендуем <a href="https://eth.nanopool.org/" target="_blank" rel="nofollow">Nanopool</a>, Dwarfpool или Ethermine<a href="https://eth.nanopool.org/" target="_blank">. </a>Домашняя страница или раздел справки сайта-пула, скорее всего, содержит инструкции о том, как майнить с помощью популярного майнера Claymore.</p>
 <p>Для целей данного руководства мы будем использовать Etheremine. Непосредственно на домашней странице <a href="http://ethermine.org/" target="_blank" rel="nofollow">Ethermine.org</a> вы увидите раздел «Режим Stratum с использованием Claymores Miner». Откройте папку Claymore miner на рабочем столе, щелкните правой кнопкой мыши текстовый файл «Пуск» и выберите «Редактировать».</p>
 <p>Перейдите на сайт Ethermine, выделите и скопируйте весь текст.</p>
-<p><img alt="Ethermine Инструкции" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image022.png" style="height:342px; width:1183px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <p>В зависимости от вашего местоположения вы хотите подключиться к ближайшему к вам серверу и обновить текстовую строку для сервера:</p>
 <p>: eu1.ethermine.org4444</p>
 <p>Для наиболее подходящего для вас сервера в зависимости от вашего местоположения:</p>
@@ -296,12 +367,18 @@
 <p>EthDcrMiner64.exe -epool us1.ethermine.org:4444 -wal 0x46064Df3e898488B19bC985A0973be51698bD6bb.MiningRig1 -epsw x</p>
 <p>Сохраните ваш файл как пакетный файл с расширением bat. Для этого выберите «Файл» -  «Сохранить как», а затем в поле выберите его имя и введите «.bat» после имени. В поле «Тип файла» выберите «Все файлы» и нажмите «Сохранить».</p>
 <p>Поздравляю! Теперь у вас есть готовый пакетный файл! Создайте ярлык для нового Bat файла и отправьте его на рабочий стол. Затем вы можете удалить текстовую версию файла.</p>
-<p><img alt="Сохранение файла Bat" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image023.png" style="height:143px; width:914px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <h2>Шаг 9: Начните получать Ethereum!</h2>
 <p>Дважды щелкните Bat файл, чтобы запустить майнер. </p>
 <p>Майнер запустится, запустит команды setx для установки переменных среды, инициализирует каждую из ваших видеокарт, создаст DAG файл и начнет хэшировать. Дайте ему поработать около 20 секунд, а затем нажмите «s», чтобы отобразить вашу скорость хеширования.</p>
 <p>Чтобы отслеживать свои доходы в пуле, вернитесь на сайт Ethermine.org и вставьте адрес своего кошелька в окно адреса вверху. Нажмите кнопку «Проверить статус»:</p>
-<p><img alt="Ethermine CheckStatus" src="file:///C:/Users/rgz/AppData/Local/Temp/msohtmlclip1/01/clip_image024.png" style="height:126px; width:1016px" /></p>
+<p>
+<a href="items/start/how/account.png" target="_blank">
+<img src="items/start/how/account.png" alt="claymore"></a>
+</p>
 <h2>7. Часто задаваемые вопросы</h2>
 <h2>Могу ли я использовать мой процессор вместо видеокарты?</h2>
 <p>Видеокарты настолько быстрее, чем майнинг на процессоре. Он больше не приносит прибыли и не стоит его использовать. Даже видеокарты начального уровня примерно в 200 раз быстрее, чем процессоры для майнинга.</p>
