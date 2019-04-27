@@ -4,7 +4,7 @@
 <!--[if IE 8]><html class="lt-ie9" lang="ru" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="ru" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
 <head>
-<title>Настройка Claymore Miner для карт NVIDIA 1080/1080TI [2019]</title>
+<title>Настройка Claymore Miner Nicehash NVIDIA 1080/1080TI [2019]</title>
 <meta charset="utf-8" />
 <link rel="shortcut icon" href="items/favicon.ico" type="image/vnd.microsoft.icon" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
@@ -81,9 +81,44 @@
 	</div>
 </section>
 <section class="eth-art">
-<H1 class="eth-title"><a id="start">Настройка Claymore Miner для карт NVIDIA 1080/1080TI
+<H1 class="eth-title"><a id="start">Настройка Claymore Miner для Nicehash и карт NVIDIA 1080/1080TI
 </a></h1>
 	<div class="eth-vi2">
+<p>Claymore обычно попадает на ваш жесткий диск через сторонние загрузки через программу Nicehash, и о нем быстро забывают. Вы, вероятно, хотите, по крайней мере, обновить его, это важно для этого руководства. </p>
+<p>Майнинг Эфириума на 1080 / 1080ти? Разве это не должно быть малоприбыльно? Да. Но карты достаточно сильны, чтобы способным добывать хороший Ethereum, а затем можно добавить 30-40% максимальной скорости хеширования.</p>
+<p>Прежде всего, нужно убедиться, что ваша карта находится в состоянии P0, а не в состоянии P2. Если она находится в состоянии P2, вы теряете частоты памяти, которые Claymore Miner хотел бы использовать. Как? Убедитесь, что ваши настройки установлены правильно. </p>
+
+<p>
+<a href="items/start/how/rx580.png" target="_blank">
+<img src="items/start/how/rx580.png" alt="rx580"></a>
+</p>
+<p><strong>Если у вас не стоит </strong><strong>P</strong><strong>0 - сбросьте текущие настройки OC</strong>. Есть два способа сделать это:</p>
+<p><strong>1) Инспектор профилей nvidia - <a href="https://ci.appveyor.com/api/buildjobs/k9qlc0tm6bcwc039/artifacts/nspector%2Fbin%2FnvidiaProfileInspector.zip" target="_blank" rel="nofollow">nvidiaProfileInspector</a></strong></p>
+<p>и отключите опцию «CUDA - Force P2», состояние которой указано в разделе «5 - общие»</p>
+<p>
+<a href="items/start/how/rx580.png" target="_blank">
+<img src="items/start/how/rx580.png" alt="rx580"></a>
+</p>
+<p>Правильная установка состояния даст вам преимущество в майнинге некоторых алгоритмов, которые ранее страдали от разогнанной памяти.  </p>
+<p><strong>2) nvidia-smi:</strong></p>
+<p><a href="http://cryptomining-blog.com/tag/nvidia-change-power-state/"  target="_blank" rel="nofollow">http://cryptomining-blog.com/tag/nvidia-change-power-state/</a></p>
+<p>Команда короткая, не копируйте и не вставляйте ее прямо в консоль, поскольку в итоге вы можете скопировать разрыв строки и сразу же применить ее, прежде чем сможете настроить значения частот в соответствии со своими потребностями.</p>
+<p><strong>Готовы к майнингу?</strong></p>
+<p>Чтобы получить максимальную отдачу от дуал майнинга, необходимо установить значение dcri , которое определяет, сколько ресурсов идет на добычу второй монеты.</p>
+<p>
+<a href="items/start/how/rx580.png" target="_blank">
+<img src="items/start/how/rx580.png" alt="rx580"></a>
+</p>
+<p> Попытка выполнить функцию эталонного теста крайне медленна, поскольку настройка может составлять от 0 до 500 для каждого дуал майнера.</p>
+<p>Так что вам нужно <strong>НЕ</strong> скрывать окно майнинга в настройках, а затем отключить все алгоритмы, кроме одного из двух майнеров. Если Nicehash не позволит вам начать этот путь, вам, вероятно, потребуется ввести несколько фиктивных чисел для основной / дополнительной скорости хеширования в том же меню настроек.</p>
+<p>Когда майнер начал хешировать, используйте клавиши +/- в окне майнера, чтобы отрегулировать dcri, пока вы не найдете подходящее число (обычно это точка, где скорость ETH начинает снижаться).</p>
+<p>Подождите немного, оцените разумное среднее значение, запишите его, прекратите майнинг и вставьте новые числа для настроек алгоритма.</p>
+<p>Dual Mining Eth / Decred 1080ti в действии: </p>
+<p>
+<a href="items/start/how/rx580.png" target="_blank">
+<img src="items/start/how/rx580.png" alt="rx580"></a>
+</p>
+
 
 <p>Загрузите текущую версию по ссылкам для скачивания в Github или Mega (не используйте ссылки других людей). Текущая версия на момент написания этой статьи - 12.0.</p>
 </div>
