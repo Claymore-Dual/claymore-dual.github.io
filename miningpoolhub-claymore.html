@@ -100,23 +100,37 @@ pause</code></pre></div>
 
 <H2>Выбор сервера Miningpoolhub</H2>
 <p>Для выбора наиболее подходящего для вас сервера в зависимости от вашего местоположения используйте:</p>
-<blockquote><pre><code>
-Европейский сервер: eth-eu.dwarfpool.com (Франция) 
-Американский сервер: eth-us.dwarfpool.com (Монреаль, Канада) 
-Американский сервер: eth-us2.dwarfpool.com (Лас-Вегас) 
-RU-Сервер: eth-ru.dwarfpool.com (Москва, Россия) 
-ASIA-сервер: eth-asia.dwarfpool.com (Сингапур)
-Порт: 80, 8000 и Stratum-Port (прокси + клеймор): 8008
-CN-сервер: eth-cn.dwarfpool.com (Шанхай / 上海市) 
-CN-сервер: eth-cn2.dwarfpool.com (Пекин / 北京)
-Только Stratum-Port (прокси + клеймор): 8008
-SG-сервер: eth-sg.dwarfpool.com (Сингапур) 
-AU-сервер: eth-au.dwarfpool.com (Мельбурн) 
-RU-сервер: eth-ru2.dwarfpool.com (Москва, Россия) 
-HK-сервер: eth- hk.dwarfpool.com (Гонконг / 香港)
-</code>
-</pre></blockquote>
-<p>В этом примере мы использовали российские сервера, так что теперь внутри вашего текстового файла вы должны иметь:</p>
+
+<table class="responsive-table mar">
+
+    <thead>
+		<tr>
+			<th>Расположение</th>
+			<th>Адрес</th>
+			<th>Стратум порт</th>
+		</tr>
+    </thead>
+	<tbody>
+		<tr>
+			<td>Европа</td>
+			<td>europe.ethash-hub.miningpoolhub.com</td>
+			<td>20535</td>
+		</tr>
+		<tr>
+			<td>США</td>
+			<td>us-east.ethash-hub.miningpoolhub.com</td>
+			<td>20535</td>
+		</tr>
+		<tr>
+			<td>Азия</td>
+			<td>asia.ethash-hub.miningpoolhub.com</td>
+			<td>20535</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<p>В этом примере мы использовали европейские сервера, так что теперь внутри вашего текстового файла вы должны иметь:</p>
 <div class="vaz2"><pre><code>setx GPU_FORCE_64BIT_PTR 0
 
 setx GPU_MAX_HEAP_SIZE 100
@@ -127,11 +141,18 @@ setx GPU_MAX_ALLOC_PERCENT 100
 
 setx GPU_SINGLE_ALLOC_PERCENT 100
 
-EthDcrMiner64.exe -epool eth-ru2.dwarfpool.com:8008 -ewal Ваш_Ethereum_Address.имя_фермы -epsw x
+EthDcrMiner64.exe -epool europe.ethash-hub.miningpoolhub.com:20535 -ewal Ваше_имя_пользователя_пула.Ваше_имя_воркера -epsw x
 </code></pre></div>
 <p>
-Замените «Ваш_Ethereum_Address» на свой адрес кошелька Ethereum (который начинается с 0x…), скопируйте его из другого текстового файла и вставьте его здесь.</p>
+Замените «Ваше_имя_пользователя_пула» на свое имя пользователя пула miningpoolhub  скопируйте его из другого текстового файла и вставьте его здесь.</p>
 <p>
+<p>
+<a href="items/examples/miningpoolhub-workers.png" target="_blank">
+<img src="items/examples/miningpoolhub-workers.png" alt="miningpoolhub-workers"></a>
+<span class="img-tit nev">Так выглядит username и workername во вкладке Hub Workers</span>
+</p>
+
+
 Замените «имя_фермы» на любое имя, которое вы хотели бы создать для своего майнера. Мы будем использовать «MiningRig1» для нашего примера, так что теперь у вас есть:</p>
 <div class="vaz"><pre><code>setx GPU_FORCE_64BIT_PTR 0
 
