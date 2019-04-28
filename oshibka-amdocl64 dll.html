@@ -84,14 +84,24 @@
 <section class="eth-art">
 <H1 class="eth-title"><a id="start">Claymore Dual Miner Ошибка AMDOCL64 DLL [Решено, 2019]</a></h1>
 	<div class="eth-vi2">
-	
-
+<h2>Решение 1 (для старых материнских плат)</h2>
+<p>Измените команду батника на GPU_FORCE_64BIT_PTR с 0 на 1</p>
+<p>Пример</p>
 <pre><code><span class="nev2">setx GPU_FORCE_64BIT_PTR 0
 setx GPU_MAX_HEAP_SIZE 100
 <span class="eth-grn">setx GPU_USE_SYNC_OBJECTS 1</span>
 setx GPU_MAX_ALLOC_PERCENT 100
 setx GPU_SINGLE_ALLOC_PERCENT 100</span>
 EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -eworker <span class="eth-grn">имя фермы</span> -ewal <span class="eth-grn">Адрес вашего кошелкьа</span> -epsw x</code></pre>
+<h2>Решение 2. Переустановить / обновить драйвера видеокарт</h2>
+<p>Используйте программу Display Driver Uninstaller что бы полностью удалить все компоненты старых драйверов их системы.</p>
+<p><a href="https://www.wagnardsoft.com/">Скачать с официального сайта</a>.</p>
+<p>После удаления, скачайте последние версии драйверов с официального сайта производителя карт.</p>
+<h2>Решение 3. Если у вас мало оперативной / виртуальной памяти</h2>
+<p>Если у вас меньше 4 ГБ оперативной памяти, то рекомендуется поставить дополнительную планку ОЗУ.</p>
+<p>Так же может помочь увеличение <strong>виртуальной</strong> памяти системы.</p>	
+
+
 
 
 <p class="vaz2">Проект Claymore представляет самые <strong>последние версии</strong> программного обеспечения (исправляет все ошибки и баги  предыдущих версий)! Поэтому если у Вас <strong>старая</strong> версия, мы настоятельно советуем <strong>скачать</strong> последнюю версию Claymore's по ссылкам ниже, так как с каждым выходом новой версии добыча Эфира становится <strong>выгоднее</strong>!</p>
