@@ -102,8 +102,7 @@
 <p>Команда <code>-cvddc (значение)</code> позволяет задать вольтаж ядра видеокарты в миливолтах.</p>
 <h2><a id="sect2"></a>Разгон AMD Claymore</h2>
 <p>Для разгона видеокарт семейства АМД (например, <strong>RX 570/580/590</strong>) используйте следующие оптимизированные настройки:</p>
-<p>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30 -cclock 1100 -mclock 2000 -powlim -10 -cvddc 950</p>
-<p>Pause</p>
+<div class="vaz2"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker claymore -epsw x -mode 1 -r 0 -dbg -1 -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30 <span class="eth-grn">-cclock 1100 -mclock 2000 -powlim -10 -cvddc 950</span></code></pre></div>
 <p>В этом примере у нас частота ядра занижена до 1100 МГц, память разогнана до 2000 МГц, лимит энергопотребления снижен на 10%, а напряжение ядра установлено на 950 милливольт.</p>
 <h2><a id="sect3"></a>Как указать для разных карт разные значения?</h2>
 <p>Что бы каждой карте задать свои параметры, нужно указать их в порядке расположения через запятую.</p>
