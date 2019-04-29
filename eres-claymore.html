@@ -84,10 +84,14 @@
 <section class="eth-art">
 <H1 class="eth-title"><a id="start">Eres Claymore Miner - правильная настройка параметра</a></h1>
 	<div class="eth-vi2">
-<p>Эта ошибка означает то, что майнер не видит видеокарты в системе.</p>
-<p>
-<a href="items/crash/AMD-Opencl-Platform-Not-Found-Claymore.png" target="_blank">
-<img src="items/crash/AMD-Opencl-Platform-Not-Found-Claymore.png" alt="AMD-Opencl-Platform-Not-Found-Claymore"></a>
+<p>Параметр –eres помогает установить количество DAG эпох, для которых программа будет резервировать буфер видеопамяти карты.</p>
+<h2>Доступные значения</h2>
+<p>0 - если у видеокарт мало видеопамяти, DAG файл не будет создаваться с запасом на перед;</p>
+<p>1 - DAG файл будет создаваться на одну эпоху вперед</p>
+<p>2 (по умолчанию)</p>
+<h2>Примеры использования</h2>
+<a href="items/crash/eres-claymore.png" target="_blank">
+<img src="items/crash/eres-claymore.png" alt="eres-claymore"></a>
 </p>
 <p>Почему он не видит карты, ведь они есть?</p>
 <p>Здесь могут быть две причины:</p>
