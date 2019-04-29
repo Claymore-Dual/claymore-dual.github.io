@@ -84,21 +84,40 @@
 <section class="eth-art">
 <H1 class="eth-title"><a id="start">Claymore Низкий Хешрейт: Способы решения проблем</a></h1>
 	<div class="eth-vi2">
-<p>Параметр <code>-dbg</code> позволяет вести журнал (логи) работы программы.</p>
-<h2>Доступные значения</h2>
-<p><code>-dbg 0</code> - (по умолчанию) создать файл журнала, но не показывать отладочные сообщения.</p>
-<p><code>-dbg 1</code> - создать файл журнала и показать отладочные сообщения.</p>
-<p><code>-dbg -1</code> - отключить файла журнала и отладочные сообщения.</p>
-<h3>Примеры использования</h3>
-<h4>Вести журнал с отладкой:</h4>
-<div class="vaz2"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker claymore -epsw x -mode 1 -r 0 <span class="eth-grn">-dbg 1</span> -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30</code></pre></div>
 
-<h4>Отключить журнал</h4>
-<div class="vaz2"><pre><code>EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal 0x1a0e2c4cd699cee12672adc223fdb30b93253eba -eworker claymore -epsw x -mode 1 -r 0 <span class="eth-grn">-dbg -1</span> -mport 0 -etha 0 -retrydelay 1 -ftime 55 -tt 79 -ttli 85 -tstop 89 -fanmin 30</code></pre></div>
+<p>Низкий хешрейт можно быть по многим причинам.</p>
+<p>Перечислим основные из них</p>
+<ol>
+	<li>Вы не включили режим вычислений в видеодрайвере AMD</li>	
+</ol>
+<p>Игры – Глобальные настройки – Рабочая нагрузка ГП – Вычислить. Проделать эти настройки <strong>для каждой</strong> видеокарты в системе.</p>
 <p>
 <a href="items/crash/compute-mode.png" target="_blank">
 <img src="items/crash/compute-mode.png" alt="compute-mode"></a>
 </p>
+<p>Для карт NVIDIA нужно включить режим p0.</p>
+<p>Вы можете изменить pstate, используя nvidia-smi.exe (устанавливается с драйверами nvidia в C:\Program Files\NVIDIA Corporation\NVSMI).</p>
+<p>Проиллюстрируем это на GTX 970, но у вас должно быть другое значение в зависимости от вашей модели NVIDIA. <br />
+Вы должны быть "администратором" для изменения pstate. <br />
+Просто запустите «cmd» от имени администратора (введите cmd на панели «Кортана» и в окне «Выполнить» щелкните правой кнопкой мыши, чтобы запустить Командную строку от имени администратора). <br />
+Первая команда предназначена для проверки вашего фактического состояния. <br />
+<code>nvidia-smi.exe -q -d PERFORMANCE</code>
+Вы должны посмотреть «Состояние производительности». Это должно быть P2. <br />
+У вас должно быть что-то вроде этого (наша карта на P0 на этом скриншоте) Вторая команда - получить тактовые частоты, которые поддерживает ваша карта (без разгона): </p>
+</p>
+<p>
+<a href="items/examples/cmd_pstate.jpg" target="_blank">
+<img src="items/examples/cmd_pstate.jpg" alt="cmd_pstate"></a>
+</p>
+
+<ol>
+	<li value=""2>Вы не пропатчили драйверы AMD</li>
+</ol>
+
+
+
+
+
 <h2>Старая версия программы</h2>
 <p>Если у Вас устаревшая версия программы – скачайте самую свежую. В ней исправлены все ошибки и недочеты. А так же примеры настроенных .bat файлов под все поддерживаемые монеты и пулы.</p>
 
