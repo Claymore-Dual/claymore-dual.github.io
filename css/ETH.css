@@ -141,8 +141,13 @@ background: linear-gradient(to top,#e0eef7,#fff);
     position: relative;
     top: 3px;
     right: 105px;
-	
 	}
+.eth-download .eth-button i {
+	
+	
+}
+
+	
 .eth-button:hover a, .eth-button:hover i {color:#fff;text-decoration: none;  transition: 0.1s;}
 	
 
