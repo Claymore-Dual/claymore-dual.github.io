@@ -92,6 +92,7 @@ background-size: contain;
     left: 10px;
 }
 .eth-button {
+	min-width: 350px;
     color: #444;
     background-color: #FFF;
     overflow: hidden;
