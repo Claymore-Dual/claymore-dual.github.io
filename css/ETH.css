@@ -83,7 +83,14 @@ background-size: contain;
     text-shadow: 1px 1px 1px #000;
 	    margin: 0 0 20px 0
 }
-.eth-button a {color: #444;}
+.eth-button a {
+    color: #444;
+    display: block;
+    height: 100%;
+    position: relative;
+    top: -62px;
+    left: 10px;
+}
 .eth-button {
     color: #444;
     background-color: #FFF;
