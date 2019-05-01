@@ -137,8 +137,12 @@ background: linear-gradient(to top,#e0eef7,#fff);
     color: #444;
     font-size: 18px;
 }
-.eth-button i {font-size: 25px!important;position: relative;
-    top: 3px;}
+.eth-button i {font-size: 25px!important;
+    position: relative;
+    top: 3px;
+    right: 105px;
+	
+	}
 .eth-button:hover a, .eth-button:hover i {color:#fff;text-decoration: none;  transition: 0.1s;}
 	
 
