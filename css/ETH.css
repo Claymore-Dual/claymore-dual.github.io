@@ -151,9 +151,8 @@ right: 166px;
 .eth-button:hover a, .eth-button:hover i {color:#fff;text-decoration: none;  transition: 0.1s;}
 	
 
-html *,
-html *:before,
-html *:after {
+.eth-button:before,
+.eth-button:after {
   transition: 0.5s;
 
 }
