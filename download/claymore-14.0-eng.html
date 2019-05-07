@@ -104,6 +104,8 @@
 
 <p>   Currently only AMD Polaris cards are supported, support for other cards will be added later.</p>
 
+In general, you use <code class="grn">-strap 1</code> value and then try to overclock memory to see the highest stable clock and hashrate. Then you can try <code class="grn">-strap 2</code> and do the same. After these tests just select the best strap index and clock. At the same clock <code class="grn">-strap 4</code> will show better hashrate than "-strap 1" but it will not support very high memory clocks, so final hashrate after oveclocking can be lower than <code class="grn">-strap 1</code> with very high memory clock.
+
 <p>   Miner has built-in straps database, all straps are separated by memory (4GB or 8GB) and memory type (Samsung, Elpida, Hynix, Micron).</p>
 
 <p>   Straps are sorted by intensity, i.e. <code class="grn">-strap 1</code> supports higher memory clock than <code class="grn">-strap 2</code>, etc. For the best hashrate you must also set high memory clock, so <code class="grn">-strap 1</code> is a good start point for tests.</p>
