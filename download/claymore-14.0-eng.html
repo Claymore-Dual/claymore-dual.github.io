@@ -52,7 +52,7 @@
 
 
 <div id="page-wrapper">
-  <div id="page" class="page at-mt eth-charts">
+  <div id="page" class="page at-mt eth-inner">
 
 
 <div id="menu-bar" class="nav clearfix">
@@ -92,6 +92,42 @@
 <p>Instead, you just put new strap string to config file and the miner applies it immediately in runtime.</p>
 <p>If specified strap is not working it will not cause any problems, after reboot you will have stock strap again because bios is not changed.</p>
 <p>This way you can keep stock bios and also test new straps safe and easy.</p>
+
+<p><code class="grn">-driver</code>   installs or uninstalls the driver which is required to apply memory timings (straps) and closes miner after it. This option is available for Windows only and requires admin rights to execute.</p>
+
+<p>   Use <code class="grn">-driver install</code> to install the driver, "<code class="grn">-driver uninstall" to uninstall the driver. Since the driver is not signed, miner enables "Test mode" in Windows, you need to reboot to apply it.</p>
+
+<p>   This option is necessary only if you want to install or uninstall the driver separately, miner anyway will install the driver automatically if <code class="grn">-strap</code> option is used.</p>
+
+<p><code class="grn">-strap</code>   applies specified memory timings (strap). This option is available for Windows only and requires AMD drivers 18.x or newer (most tests were performed on 19.4.3).</p>
+
+<p>   Currently only AMD Polaris cards are supported, support for other cards will be added later.</p>
+
+<p>   Miner has built-in straps database, all straps are separated by memory (4GB or 8GB) and memory type (Samsung, Elpida, Hynix, Micron).</p>
+
+<p>   Straps are sorted by intensity, i.e. <code class="grn">-strap 1</code> supports higher memory clock than <code class="grn">-strap 2</code>, etc. For the best hashrate you must also set high memory clock, so "<code class="grn">-strap 1" is a good start point for tests.</p>
+
+<p>   You can specify just strap index, for example <code class="grn">-strap 1</code> will apply first strap from database for all Polaris GPUs based on GPU memory size and memory type, miner will show full strap name detected.</p>
+
+<p>   Or you can specify strap directly in format "POL8S1": "POL" means Polaris, "8" means 8GB, "S" means Samsung memory, "1" means index.</p>
+
+<p>   Zero index means default strap from VBIOS, i.e. no strap is applied.</p>
+
+<p>   You can also use "@" character after strap to specify memory clock, it works like <code class="grn">-mclock</code> but overrides it, for example, <code class="grn">-strap POL4E2@1900</code>.</p>
+
+<p>   You can also specify values for every card, for example <code class="grn">-strap 1@2100,POL4H3,0</code>.</p>
+
+<p>   If strap is applied, miner will return old strap and memory clock when miner is closed.</p>
+
+<p>   The best approach to find best strap is to set <code class="grn">-strap 1,0</code> (it sets strap #1 for first card and no straps for the rest of GPUs) and then raise memory clock to see what clocks and hashrate you can reach.</p>
+
+<p>   Then so the same for strap #2 etc.</p>
+
+<p>   You can also specify raw strap string (96 characters). Note that single option value means that this strap is applied for all GPUs, use "0" to apply strap on single GPU,</p>
+
+<p>   for example <code class="grn">-strap 0,1@2200,0</code> applies strap #1 and memory clock 2200MHz for second GPU only.</p>
+
+<p>   NOTE: if specified strap fails, Windows is crashed. After reboot default timings are restored and you can try some different settings.</p>
 
 </div>
 </section>
