@@ -4074,10 +4074,10 @@ border: 1px solid #efefef;
   transform: rotate(2deg);
 }
 
-.quote3{
-  font-family: Georgia, serif;
-  font-size: 15px;
-  padding: 0 0 0 15px;
+.quote3 {
+    font-family: Georgia, serif;
+    padding: 0 0 0 15px;
+    line-height: 1.6;
 }
 .quote3 blockquote {
  border:none;
