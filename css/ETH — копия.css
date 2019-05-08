@@ -50,10 +50,9 @@ background-size: contain;
 
 }
 .eth-header h1 {color:#fff;border: none;
-color: #fff;
-    border: none;
     margin: 0;
     display: block;
+    width: 39%;
     font-size: 300%;
     text-shadow: 3px 3px 1px #000;
     overflow: hidden;
@@ -73,19 +72,16 @@ color: #fff;
 	top:0;}
 .eth-header-center {}
 .eth-header-composition {
-position: relative;
-    width: 375px;
-    box-shadow: 1px 1px 1px #000;
-    box-shadow: inset 93px 16px 300px 60px rgba(129, 158, 176, 0.51);
-    padding: 20px;
-    border-radius: 20px;
+    position: relative;
+	width: 1000px;
 }
  .green {color: #39ff39;;}
 .eth-fast {
     font-size: 140%;
+    width: 35%;
     color: #fff;
     text-shadow: 1px 1px 1px #000;
-    margin: 0 0 20px 0;
+	    margin: 0 0 20px 0
 }
 .eth-button a {
     color: #444;
@@ -136,7 +132,6 @@ position: relative;
     max-width: 250px;
     text-transform: uppercase;
 background: linear-gradient(to top,#e0eef7,#fff);
-margin: 0 auto;
 }
  .fa,  .fas,  .far,  .fab {
     color: #444;
@@ -155,7 +150,6 @@ right: 166px;
 	
 .eth-button:hover a, .eth-button:hover i {color:#fff;text-decoration: none;  transition: 0.1s;}
 	
-
 
 .eth-button:before,
 .eth-button:after {
@@ -210,17 +204,7 @@ right: 166px;
   display: flex;
   justify-content: center;
 }
-.eth-vi {
-max-width: 1366px;
-    position: relative;
-margin: 0 auto;	
-}
-.eth-header .eth-vi {
-    margin: 0 0 0 15vw;
-}
-
-
-
+.eth-vi {max-width:1366px;margin: 0 auto;}
 .e-itm {
 width:330px;
 margin: 0px 20px;
@@ -454,25 +438,13 @@ color: none!important;
     content: "none"!important;
 }
 
+
  .eth-post-foot .eth-vi2 {font-size:10px;line-height: 1.50;max-width: 900px;}
-
-
 @media all and (min-width:350px) and (max-width:1023px){
 #page-wrapper .eth-menu ul li {
     width: 100%;
 }
-.eth-header-composition {
-    word-break: break-all;
-}
-.eth-button {
-    min-width: 0;
-}
-.eth-header .eth-vi {
-    margin: 0;
-    max-width: 320px;
-}
 .eth-header {
-min-height: 382px;
     background-size: cover;
 }	
 .eth-header-flex {
@@ -485,7 +457,6 @@ min-height: 382px;
     width: 85%;
 }
 .eth-gpu {
-    min-height: 421px;
     background-size: cover;
 }
 .eth-items {
@@ -560,41 +531,29 @@ top:0px;
 left:0px;
 }
 } 
-@media all and (min-width:1024px) and (max-width:1024px){
-.eth-header .eth-vi {
-    left:0px;
-    margin: 0px;
-}
 
-.eth-header {
-
-    background-size: cover;
-}
-.eth-gpu {
-    background-size: cover;
-}
-
-}
-
-@media all and (min-width:1025px) and (max-width:1280px){
+@media all and (min-width:1023px) and (max-width:1280px){
 .eth-header h1, .eth-header h2 {
 font-size: 225%;
 }	
 .eth-header {	
-min-height: 472px;
+min-height: 380px;
 }	
  
 .eth-header-flex {
-top: 62px;
+/* top: 62px; */
     min-height: 361px;
 }
 .eth-gpu {
-    min-height: 520px;
-}
-.eth-header .eth-vi {
-    margin: 0 0 0 4vw;
+    min-height: 422px;
 }
 
+.eth-button {
+    /* max-width: 205px; */
+}
+.eth-charts .eth-button {
+    /* max-width: 280px; */
+}
 }
 @media all and (min-width:1024px) and (max-width:1365){
 .eth-header {	
@@ -610,9 +569,6 @@ top: 120px;
 }
 
 @media all and (min-width:1366px) and (max-width:1439px){
-.eth-header .eth-vi {
-    margin: 0 0 0 10vw;
-}
 .eth-header {	
 min-height: 503px;
 }	
@@ -625,9 +581,6 @@ top: 34px;
 }
 }
 @media all and (min-width:1440px) and (max-width:1535px){
-	.eth-header .eth-vi {
-    margin: 0 0 0 10vw;
-}
 .eth-header {	
 min-height: 534px;
 }	
@@ -639,9 +592,6 @@ min-height: 534px;
 }
 }
 @media all and (min-width:1536px) and (max-width:1598px){
-	.eth-header .eth-vi {
-    margin: 0 0 0 10vw;
-}
 .eth-header {	
 min-height: 572px;
 }	
@@ -654,9 +604,6 @@ min-height: 572px;
 }	
 	
 @media all and (min-width:1599px) and (max-width:1679px){
-	.eth-header .eth-vi {
-    margin: 0 0 0 10vw;
-}	
 .eth-header {	
 min-height: 592px;
 }	
@@ -684,9 +631,6 @@ min-height: 626px;
 .eth-header {	
 min-height: 711px;
 }	
-.eth-row {
-    font-size: 120%;
-}
 .eth-header-flex {
 top: 134px;
  right: 119px;
