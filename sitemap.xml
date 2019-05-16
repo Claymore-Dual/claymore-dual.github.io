@@ -1,278 +1,434 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-      <loc>https://claymore-dual.github.io/asm</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/1080-ti-claymore-miner.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/avtozagruzka-caymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/amd-opencl-platform-not-found-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/caymore-reboot</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/asm.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/claymore-12</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/avtozagruzka-caymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/claymore-eth</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/caymore-reboot.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/claymore-ne-zapuskaetsya</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/claymore-12.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/claymore-vs-ethminer</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/claymore-eth.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/claymore-vyletaet</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/claymore-ne-zapuskaetsya.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/claymore-zakryvaetsya</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/claymore-vs-ethminer.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/cn</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/claymore-vyletaet.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/dcri-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/claymore-zakryvaetsya.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/di-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/cn.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/dwarfpool-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/config-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/error-61-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/cookie.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/esm-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/cuda-error.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/etc-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/dbg-1-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/etha-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/dcri-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/ethermine</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/di-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/failover</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/difficulty.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/googlee95e75210f5b8089</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/difficulty-ru.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/index</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/dwarfpool-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/mport</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/eres-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/naonopool-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/error-61-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/nastrojka-batnika</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/esm-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/nastrojki-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/etc-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/ne-pokazivaet-temperature</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/etha-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/ne-rabotaet-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/ethereum-market-price.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/nicehash-nastrojka-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/ethermine.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/no-address</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/failover.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/nodevfee-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/googlee95e75210f5b8089.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/noviy-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/index.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/nvidia-nastrojka-claymore-dlja-etherium</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/karty-dlya-majninga-efira.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/otklyuchit-dual</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/majning-efira.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/phoenix-miner-vs-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/majning-efiriuma-videokartoj-nvidia.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/readme-na-russkom-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/miningpoolhub-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/ru</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/mport.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/rx-550-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/naonopool-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/tt-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/nastrojka-batnika.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/ttli-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/nastrojki-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/upravlenie-ventiljatorami-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/ne-pokazivaet-temperature.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/watchdog-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/ne-rabotaet-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/watchdog-gpu-hangs-in-opencl-call,-exit</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/nicehash-nastrojka-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/zavisaet-claymore</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/nizkij-heshrejt.html</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/download/claymore-14.2-eng</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/no-address.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/nodevfee-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/noviy-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/nvidia-nastrojka-claymore-dlja-etherium.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/oshibka-amdocl64-dll.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/otklyuchit-dual.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/perezagruzhaetsya-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/phoenix-miner-vs-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/razgon-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/readme-na-russkom-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/ru.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/rx-550-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/share-rejected-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/socket-closed-remotely-by-pool.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/solo-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/tt-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/ttli-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/upravlenie-ventiljatorami-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/watchdog-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/watchdog-gpu-hangs-in-opencl-call,-exit.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/zavisaet-claymore.html</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/download/claymore-11.9</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/download/claymore-12.0</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/download/claymore-12.0-eng</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/download/claymore-14.0</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/download/claymore-14.0-eng</loc>
+      <lastmod>2019-05-16</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/download/claymore-14.1</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
       <loc>https://claymore-dual.github.io/download/claymore-14.2</loc>
-      <lastmod>2019-05-016</lastmod>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
-      <loc>https://claymore-dual.github.io/socket-closed-remotely-by-pool</loc>
-      <lastmod>2019-05-016</lastmod>
+      <loc>https://claymore-dual.github.io/download/claymore-14.2-eng</loc>
+      <lastmod>2019-05-16</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
