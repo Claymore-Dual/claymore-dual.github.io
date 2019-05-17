@@ -450,4 +450,16 @@
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
+<url>
+      <loc>https://claymore-dual.github.io/download/claymore-14.4-eng</loc>
+      <lastmod>2019-05-17</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/download/claymore-14.4</loc>
+      <lastmod>2019-05-17</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
 </urlset>
