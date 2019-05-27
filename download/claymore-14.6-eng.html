@@ -88,9 +88,15 @@
 <p>v14.6 Beta:</p>
 
 <ul>
-  <li>added <code>-rxboost</code> option for AMD Polaris cards, use <code>-rxboost 1</code> to improve hashrate by about 5% by applying some additional memory timings. You can use your own straps or use <code>-strap</code> option, you will get boost anyway. <br>
- See Readme for additional information.
-  <li>fixed issue with overclock reset for Nvidia cards.</li>
+	<li>now <code>-rxboost</code> option also supports old AMD cards (Hawaii, Tonga, Tahiti, Pitcairn), use <code>-rxboost 1 </code>to improve hashrate up to 5% by applying some additional memory timings.</li>
+	<li>now <code>-rxboost</code> option supports all AMD drivers.</li>
+	<li>now "-strap" for AMD cards also supports AMD blockchain drivers.</li>
+	<li>some changes to further reduce stale shares a bit.</li>
+	<li>added <code>-minspeedtime</code> option.</li>
+	<li>added statistics for shares accepting time (min/max/average), press "s" to see it.</li>
+	<li>updated Remote Manager to show shares accepting time.</li>
+	<li>Linux version build with some performance improvements.</li>
+	<li>a few minor bug fixes and improvements.</li>
 </ul>
 
 
