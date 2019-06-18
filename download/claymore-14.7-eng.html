@@ -88,15 +88,13 @@
 <p>v14.7 Beta:</p>
 
 <ul>
-	<li>now <code>-rxboost</code> option also supports old AMD cards (Hawaii, Tonga, Tahiti, Pitcairn), use <code>-rxboost 1 </code>to improve hashrate up to 5% by applying some additional memory timings.</li>
-	<li>now <code>-rxboost</code> option supports all AMD drivers.</li>
-	<li>now "-strap" for AMD cards also supports AMD blockchain drivers.</li>
-	<li>some changes to further reduce stale shares a bit.</li>
-	<li>added <code>-minspeedtime</code> option.</li>
-	<li>added statistics for shares accepting time (min/max/average), press "s" to see it.</li>
-	<li>updated Remote Manager to show shares accepting time.</li>
-	<li>Linux version build with some performance improvements.</li>
-	<li>a few minor bug fixes and improvements.</li>
+  <li>now the miner driver does not require switching Windows to Test Mode. If you want to turn Test Mode off, use <code>-driver uninstall</code> option (with admin rights) and reboot,<br>
+  then start miner with admin rights to install new driver automatically when necessary (or use <code>-driver install</code> option directly). </li>
+ If you have any problems with signed driver you can use <code>-driver install_test</code> option, it uses old approach: enables Test Mode (reboot is required) and installs unsigned driver.</li>
+  <li>added <code>-showpower</code> option for stats about GPU power consumption, press "s" to see it. Both AMD and Nvidia cards are supported, except Linux gpu-pro drivers and Radeon7 cards.</li>
+  <li>updated Remote Manager to show total power consumption.</li>
+  <li>fixed issue with <code>-logsmaxsize</code> option when <code>-logfile</code> option is used to specify directory for log files.</li>
+  <li>a few minor bug fixes and improvements.</li>
 </ul>
 
 
