@@ -88,15 +88,16 @@
 <p>v15.0:</p>
 
 <ul>
-  <li><p>now the miner driver does not require switching Windows to Test Mode. If you want to turn Test Mode off, use <code>-driver uninstall</code> option (with admin rights) and reboot,</p>
-  then start miner with admin rights to install new driver automatically when necessary (or use <code>-driver install</code> option directly). </li></p>
- <p>If you have any problems with signed driver you can use <code>-driver install_test</code> option, it uses old approach: enables Test Mode (reboot is required) and installs unsigned driver.</li></p>
-  <li><p>added <code>-showpower</code> option for stats about GPU power consumption, press "s" to see it. Both AMD and Nvidia cards are supported, except Linux gpu-pro drivers and Radeon7 cards.</li></p>
-  <li><p>updated Remote Manager to show total power consumption.</li></p>
-  <li><p>fixed issue with <code>-logsmaxsize</code> option when <code>-logfile</code> option is used to specify directory for log files.</li></p>
-  <li><p>a few minor bug fixes and improvements.</li></p>
+  <li>now miner supports up to #384 epoch (4GB DAG size). Note that previous versions support up to #299 epoch, you will not be able to use old versions after #299 epoch.</li>
+  <li>added support for Navi cards (ETH-only mode).</li>
+  <li>now miner sets environment variables automatically (required for 4GB AMD cards).</li>
+  <li>a few minor bug fixes and improvements.</li>
 </ul>
 
+<p>
+<a href="items/ver/15.0.png" target="_blank">
+<img src="items/ver/15.0.png" alt="error-cuda-80"></a>
+</p>
 
 </div>
 </section>
