@@ -528,4 +528,16 @@
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
+<url>
+      <loc>https://claymore-dual.github.io/download/claymore-staraya</loc>
+      <lastmod>2019-07-27</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymore-dual.github.io/download/claymore-old</loc>
+      <lastmod>2019-07-27</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
 </urlset>
