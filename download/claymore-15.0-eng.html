@@ -5,14 +5,14 @@
 <!--[if IE 8]><html class="lt-ie9" lang="ru" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="ru" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
 <head>
-<title>Настройка Батника Claymore. Примеры настроек (2019)</title>
+<title>Claymore Dual Miner - Finally 14.7 version has been released!</title>
 <meta charset="utf-8" />
 <link rel="shortcut icon" href="items/favicon.ico" type="image/vnd.microsoft.icon" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 <meta name="MobileOptimized" content="width" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="description" content="Claymore Dual Miner поддерживает майнинг монет на основе Ethash алгоритма (например, Ethereum) с 1% комисией." />
+<meta name="description" content="Finally Claymore's Dual Ethereum AMD+NVIDIA GPU Miner v14.7 (Windows/Linux) has been released" />
 
 <link rel="stylesheet" href="/css/ETH.css">
 <link rel="stylesheet" href="/css/global.base.css">
@@ -60,10 +60,9 @@
 
 		<div class="menu-toggle">
 			<ul class="menu clearfix">
-			<li class="leaf"><a href="https://claymore-dual.github.io/ru" title="">Главная</a></li>
-				<li class="first leaf"><a href="#start" title="">Быстрый старт</a></li>
-				<li class="leaf"><a href="#download" title="">Скачать</a></li>
-
+				<li class="leaf"><a href="https://claymore-dual.github.io" title="">Home</a></li>
+				<li class="first leaf"><a href="#start" title="">Getting Started</a></li>
+				<li class="leaf"><a href="#download" title="">Download</a></li>
 			</ul>
 		</div>  
 	</nav>
@@ -73,68 +72,54 @@
 	<div class="eth-header-flex">
 		<div class="eth-header-center eth-vi">
 			<div class="eth-header-composition">
-			<h2>Claymore's Dual Ethereum AMD+NVIDIA GPU Miner</h2>
-			<p class="eth-fast"><span class="green">Самый быстрый Ethereum</span>/Ethash майнер с <span class="green">самой низкой комиссией</span></p> 
-			<div class="eth-button"><i class="far fa-arrow-alt-circle-down"></i><a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/15.0/Claymore.s.dual.ethereum.miner.v15.0.-.widows.Password-claymore.zip">Скачать</a>
+			<h1>Claymore's Dual Ethereum AMD+NVIDIA GPU Miner
+			</h1>
+			<p class="eth-fast"><span class="green">Fastest Ethereum</span>/Ethash miner with <span class="green">lowest devfee</span></p> 
+			<div class="eth-button"><i class="far fa-arrow-alt-circle-down"></i><a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/14.7/Claymore.s.Dual.Ethereum.AMD+NVIDIA.GPU.Miner.v14.7.-.LINUX.zip">Download Now</a>
 			</div>
 			</div>
 		</div>
 	</div>
 </section>
 <section class="eth-art">
-<H1 class="eth-title"><a id="start">Claymore Dual Miner настройка батника</a></h1>
+
 	<div class="eth-vi2">
+<H1 class="eth-title"><a id="start">Finally Claymore's Dual Ethereum AMD+NVIDIA GPU Miner v14.7 (Windows/Linux) has been released</a></h1>
+<p>v14.7:</p>
 
-<h2>Примеры</h2>
-Пример на русском языке:
-<div class="video mar">
-<iframe width="1263" height="712" src="https://www.youtube.com/embed/PET8OgA_xvw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<p>Загрузите Claymore Dual Ethereum AMD + NVIDIA GPU Miner для Windows со&nbsp; страницы.</p>
-
-<p>Распакуйте загруженный файл.</p>
-
-<p>В распакованном каталоге вы найдете файлы&nbsp; с расширением .bat, отредактируйте файл с нужной монетой следующим образом:</p>
-
-<blockquote><pre><code>ethdcrminer64.exe -epool АДРЕС_ПУЛА:порт -ewal АДРЕКС_КОШЕЛЬКА.ИМЯ_ФЕРМЫ -epsw x</code></pre></blockquote>
-
-<p>Поскольку вы используете майнинг Ethereum, вам нужно указать пул для Ethereum. В этом руководстве мы будем приводить примеры с пулами Эфира, чтобы вы могли использовать любой пул Ethereum, какой пожелаете.</p>
-
-<p>Замените адрес_пула:порт, адрекс_кошелька и имя_фермы.</p>
-<h3>Пример</h3>
-<blockquote><pre><code>
-EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x9147460980c93629e775783148591b7d0a0cbf2d -eworker asus -epsw x -mode 1 -dbg -1 -mport 0 -etha 0 -retrydelay 3   -ttli 90 -tstop 92 
-pause</code></pre></blockquote>
+<ul>
+  <li><p>now the miner driver does not require switching Windows to Test Mode. If you want to turn Test Mode off, use <code>-driver uninstall</code> option (with admin rights) and reboot,</p>
+  then start miner with admin rights to install new driver automatically when necessary (or use <code>-driver install</code> option directly). </li></p>
+ <p>If you have any problems with signed driver you can use <code>-driver install_test</code> option, it uses old approach: enables Test Mode (reboot is required) and installs unsigned driver.</li></p>
+  <li><p>added <code>-showpower</code> option for stats about GPU power consumption, press "s" to see it. Both AMD and Nvidia cards are supported, except Linux gpu-pro drivers and Radeon7 cards.</li></p>
+  <li><p>updated Remote Manager to show total power consumption.</li></p>
+  <li><p>fixed issue with <code>-logsmaxsize</code> option when <code>-logfile</code> option is used to specify directory for log files.</li></p>
+  <li><p>a few minor bug fixes and improvements.</li></p>
+</ul>
 
 
-
-<p><p class="vaz2">Проект Claymore представляет самые <strong>последние версии</strong> программного обеспечения (исправляет все ошибки и баги  предыдущих версий)! Поэтому если у Вас <strong>старая</strong> версия, мы настоятельно советуем <strong>скачать</strong> последнюю версию Claymore's по ссылкам ниже, так как с каждым выходом новой версии добыча Эфира становится <strong>выгоднее</strong>!</p>
 </div>
 </section>
 
 <section class="eth-down">
-<div class="eth-title whitez1"><a id="download">Начните добывать Ethereum с Claymore's Dual  Miner </a></div>
+<div class="eth-title whitez1"><a id="download">Getting Started With Ethereum Mining</a></div>
 <div class="eth-download">
 	<div class="eth-flex">	
 		<div class="eth-ver">	
-		Последняя версия - v15.0
-		MD5: 905D673A99C82993406A436024FA52BC *Claymore's Dual Ethereum  AMD+NVIDIA GPU Miner v15.0 - Windows.zip
-		<span class="nev2">(<a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/15.0/Claymore.s.Dual.Ethereum.AMD+NVIDIA.GPU.Miner.v15.0.-.LINUX.zip">Скачать для Linux</a>)</span>	
+		Latest version is v14.7
+		MD5: 905D673A99C82993406A436024FA52BC *Claymore's Dual Ethereum  AMD+NVIDIA GPU Miner v14.7 - Windows.zip
+		<span class="nev2">(<a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/14.7/Claymore.s.Dual.Ethereum.AMD+NVIDIA.GPU.Miner.v14.7.-.LINUX.zip">Download for Linux</a>)</span>	
 		</div>
 		<div class="eth-get">
-		<span class="eth-password">Пароль: claymore</span>
+		<span class="eth-password">Password: claymore</span>
 		<div class="eth-button down"><i class="far fa-arrow-alt-circle-down"></i>
-		<a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/15.0/Claymore.s.dual.ethereum.miner.v15.0.-.widows.Password-claymore.zip">Скачать сейчас (Windows x64)</a>
+		<a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/14.7/Claymore.s.Dual.Ethereum.AMD+NVIDIA.GPU.Miner.v14.7.-.LINUX.zip">Download Now (Windows x64)</a>
 		</div>
-		<span class="eth-mirror">(<a href="https://mega.nz/#!DLAgGSQR!maik_8WzJbJGro2ADIZAZAm9OIvRqiYTyECbarqlU4o" target="_blank" rel="nofollow">зеркало</a>)</span>
+		<span class="eth-mirror">(<a href="https://mega.nz/#!6aZAkYLC!rex_W_ZyiM_tiTD3NSU50X_vYt4D9mI8YfuZSclbLLU" target="_blank" rel="nofollow">mirror</a>)</span>
 		</div>	
 	</div>
 </div>
 </section>
-<section>
-</section>
-
-
 
 
 <!-- footer-->
@@ -142,9 +127,9 @@ pause</code></pre></blockquote>
 	<div class="">
 		<div class="eth-flex">
 			<div class="foot-itm community">
-				<p>Сообщество</p>
+				<p>Community</p>
 				<ul>
-					<li><a href="https://blog.ethereum.org" target="_blank" rel="nofollow"><i class="fas fa-rss"></i> Блог</a>
+					<li><a href="https://blog.ethereum.org" target="_blank" rel="nofollow"><i class="fas fa-rss"></i> Blog</a>
 					</li>
 					<li><a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases" target="_blank" rel="nofollow"><i class="fab fa-github"></i> GitHub</a>
 					</li>
@@ -165,13 +150,13 @@ pause</code></pre></blockquote>
 				</li>
 				<li><a href="https://www.facebook.com/ethereumproject" target="_blank" rel="nofollow"><i class="fab fa-facebook"></i> Facebook                </a>
 				</li>
-				<li><a href="https://ethereum.meetup.com" target="_blank" rel="nofollow"><i class="fab fa-meetup"></i> Встречи</a>
+				<li><a href="https://ethereum.meetup.com" target="_blank" rel="nofollow"><i class="fab fa-meetup"></i> Meetups</a>
 				</li>
 			</ul>
 		</div>
 		
 			<div class="foot-itm developer-resources">
-			<p>Ресурсы для разработчиков</p>
+			<p>Developer Resources</p>
 			<ul>
 				<li>What is Ether? <a href="#FAQ">Read our FAQ</a></li>
 				<li>Browse our source code on <a href="https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases" target="_blank" rel="nofollow">GitHub</a></li>
@@ -183,7 +168,7 @@ pause</code></pre></blockquote>
 		<li>Download our <a href="https://www.ethereum.org/assets" rel="nofollow">logo assets </a></li>
 		<li>Want to write about Ethereum? <a href="mailto:press@ethereum.org">Press inquiries</a>
 		</li>
-		<li>switch to the <a href="/ru">English language.</a>
+		<li>Russian version <a href="/ru">Switch Language </a>
 		</li>
 			</ul>
 			</div>
