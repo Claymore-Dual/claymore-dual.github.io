@@ -427,6 +427,12 @@
       <priority>.5</priority>
 </url>
 <url>
+      <loc>https://claymore-dual.github.io/download/claymore-14.1-eng</loc>
+      <lastmod>2019-07-27</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
       <loc>https://claymore-dual.github.io/download/claymore-14.2</loc>
       <lastmod>2019-07-27</lastmod>
       <changefreq>weekly</changefreq>
