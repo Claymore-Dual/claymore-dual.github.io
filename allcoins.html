@@ -4,15 +4,15 @@
 <!--[if IE 8]><html class="lt-ie9" lang="ru" dir="ltr"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="ru" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
 <head>
-<title>Probably you are trying to mine Ethereum fork. Please specify "-allcoins 1" or "-allpools 1" option. Check "Readme" file for details</title>
+<title>[SOLVED] Probably you are trying to mine Ethereum fork. Please specify "-allcoins 1" or "-allpools 1" option. Check "Readme" file for details</title>
 <meta charset="utf-8" />
-<link rel="canonical" href="https://claymoredualminer.com/download/claymore-15.0-eng" />  
+<link rel="canonical" href="https://claymoredualminer.com/allpools" />  
 <link rel="shortcut icon" href="items/favicon.ico" type="image/vnd.microsoft.icon" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 <meta name="MobileOptimized" content="width" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="description" content="error Probably you are trying to mine Ethereum fork. Please specify "-allcoins 1" or "-allpools 1" option. Check "Readme" file for details" />
+<meta name="description" content="error fix Probably you are trying to mine Ethereum fork. Please specify "-allcoins 1" or "-allpools 1" option. Check "Readme" file for details" />
 
 <link rel="stylesheet" href="/css/ETH.css">
 <link rel="stylesheet" href="/css/global.base.css">
@@ -125,13 +125,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="eth-vi2">
 <H1 class="eth-title">Probably you are trying to mine Ethereum fork. Please specify "-allcoins 1" or "-allpools 1" option. Check "Readme" file for details</h1>
 
-If you see this error, then you should update your miner or connect to another pool
+<p>If you see this error, then you should update your miner or connect to another pool</p>
+
+<p>If you want to mine some <span class="red">ETH fork</span>, always specify "<code>-allcoins 1</code>", it will work in all versions. If you don't do it, it may work in some old versions and won't work in recent versions.</p>
+
+example:
+<code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d -eworker asus -epsw x <span class="red">-allcoins 1</span></code>
+
+<p>or </p>
+
+<code>EthDcrMiner64.exe -epool eu1.ethermine.org:4444 -ewal 0x360d6f9efea21c82d341504366fd1c2eeea8fa9d -eworker asus -epsw x <span class="red">-allpools 1</span></code>
 
 
 <p>
-<a href="../items/allpools.png" target="_blank">
-<img src="../items/allpools.png" alt="allpools"></a>
-</p>
+<a href="../items/allcoins.png" target="_blank">
+<img src="../items/allcoins.png" alt="allcoins"></a>
+
 
 </div>
 </section>
