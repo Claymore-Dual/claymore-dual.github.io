@@ -161,13 +161,16 @@ pueden añadirse parámetros de configuración para controlar la temperatura, in
 			<p class="eth-attention">Atencion Por razones de seguridad, Windows puede impedirle abrir el start.bat. En este caso, debe permitir que se abra en una ventana emergente.</p>
 			<p class="eth-st">Paso 2：Edita el archivo start.bat</p>
 		<div class="eth-row">
-<pre><code>
+
 <!-- <span class="nev2">
 setx GPU_FORCE_64BIT_PTR 0
 setx GPU_MAX_HEAP_SIZE 100
 setx GPU_USE_SYNC_OBJECTS 1
 setx GPU_MAX_ALLOC_PERCENT 100
 setx GPU_SINGLE_ALLOC_PERCENT 100</span> -->
+
+Debe cambiar dirección de moneda <span class="eth-grn">(WALLET)</span>
+<pre><code>
 EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal <span class="eth-grn">WALLET</span> -eworker <span class="eth-grn">RIG_ID</span> -epsw x -mode 1</code></pre>
 <a href="items/fr/paramétrer Claymore.png"  target="_blank">
 <img src="items/fr/paramétrer Claymore.png" alt="bat file">
