@@ -155,18 +155,18 @@ Ajout d'un nouveau watchdog plus performant capable de rebooter le rig en foncti
 <section class="eth-start">
 	<div class="eth-vi2">
 		<div class="eth-title"><a id="start">Démarrage rapide</a></div>
-			<p class="eth-st">第1步：下载</p>
-		<div class="eth-row">解压下载好的Claymore's Dual Miner，右键编辑文件_ethereum.bat.bat（使用记事本打开 _ethereum.bat）。
+			<p class="eth-st">Étape 1: Téléchargez le miner</p>
+		<div class="eth-row">Décompressez le Claymore Dual Miner téléchargé et cliquez avec le bouton droit pour modifier le fichier _ethereum.bat.bat (ouvrez _ethereum.bat à l'aide du Bloc-notes).
 		</div>
-			<p class="eth-attention">警告！ 出于安全原因，Windows可能会阻止您打开bat文件。 在这种情况下，您必须允许它在弹出窗口中打开。</p>
-			<p class="eth-st">步骤2：配置.bat文件以运行Claymore Dual Miner</p>
+			<p class="eth-attention">Attention! Pour des raisons de sécurité, Windows peut vous empêcher d'ouvrir le fichier bat. Dans ce cas, vous devez l'autoriser à s'ouvrir dans une fenêtre contextuelle.。</p>
+			<p class="eth-st">Étape 2：Configurer le fichier .bat pour exécuter Claymore Dual Miner</p>
 		<div class="eth-row">
 <pre><code><span class="nev2">setx GPU_FORCE_64BIT_PTR 0
 setx GPU_MAX_HEAP_SIZE 100
 setx GPU_USE_SYNC_OBJECTS 1
 setx GPU_MAX_ALLOC_PERCENT 100
 setx GPU_SINGLE_ALLOC_PERCENT 100</span>
-EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal <span class="eth-grn">YOUR_WALLET</span> -eworker <span class="eth-grn">YOUR_WORKER</span> -epsw x -mode 1</code></pre>
+EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal <span class="eth-grn">VOTRE_WALLET</span> -eworker <span class="eth-grn">NOM_DU_WORKER</span> -epsw x -mode 1</code></pre>
 <a href="items/cn/bat.jpg"  target="_blank">
 <img src="items/cn/bat.jpg" alt="bat file">
 </a>
@@ -176,7 +176,7 @@ EthDcrMiner64.exe -epool eth-eu2.nanopool.org:9999 -ewal <span class="eth-grn">Y
 修改完成后，保存并退出。
 
 		</div>
-		<p class="eth-st">第3步：开始挖掘</p>
+		<p class="eth-st">Étape 3</p>
 		<div class="eth-row">双击运行 <span class="eth-grn">.bat，</span>你的显卡就开始挖矿了。在挖矿的时候，由于显卡被占用，会导致系统有些卡顿，所以最好不要一边挖矿一边打游戏。
 		</div>
 	<div class="eth-arr">
