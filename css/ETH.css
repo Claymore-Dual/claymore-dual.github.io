@@ -697,7 +697,7 @@ top: 134px;
  #go-top {
     display: none!important;
 }
-.nobrake {
+.nobrake a {
     word-break: normal;	
 	
 }
