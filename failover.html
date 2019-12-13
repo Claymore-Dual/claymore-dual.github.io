@@ -156,6 +156,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<tbody>
 		<tr>
 			<td data-title="№">1</td>
+			<td data-title="адрес"><a href="https://eth.nanopool.org/">https://eth.nanopool.org</a></td>
+			<td data-title="мощность, %">13.3</td>
+			<td data-title="комиссия, %">1</td>
+			<td data-title="прим.">иногда отстает статистика</td>
+			<td data-title="мин. выплата">0.2</td>
+		</tr>			
+		<tr>
+			<td data-title="№">2</td>
 			<td data-title="адрес"><a href="https://ethermine.org/">https://ethermine.org</a></td>
 			<td data-title="мощность, %">28,60</td>
 			<td data-title="комиссия, %">1</td>
@@ -163,7 +171,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<td data-title="мин. выплата">0.05</td>
 		</tr>
 		<tr>
-			<td data-title="№">2</td>
+			<td data-title="№">3</td>
 			<td data-title="адрес"><a href="https://www.sparkpool.com/">https://www.sparkpool.com</a></td>
 			<td data-title="мощность, %">17.9</td>
 			<td data-title="комиссия, %">1</td>
@@ -174,21 +182,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<td data-title="мин. выплата">0.05</td>
 		</tr>
 		<tr>
-			<td data-title="№">3</td>
+			<td data-title="№">4</td>
 			<td data-title="адрес"><a href="http://dwarfpool.com/eth">http://dwarfpool.com/eth</a></td>
 			<td data-title="мощность, %">15.0</td>
 			<td data-title="комиссия, %">1</td>
 			<td data-title="прим.">можно настроить мин. выплату до 0.05</td>
 			<td data-title="мин. выплата">1.01</td>
 		</tr>
-		<tr>
-			<td data-title="№">4</td>
-			<td data-title="адрес"><a href="https://eth.nanopool.org/">https://eth.nanopool.org</a></td>
-			<td data-title="мощность, %">13.3</td>
-			<td data-title="комиссия, %">1</td>
-			<td data-title="прим.">иногда отстает статистика</td>
-			<td data-title="мин. выплата">0.2</td>
-		</tr>
+
 		<tr>
 			<td data-title="№">5</td>
 			<td data-title="адрес"><a href="https://www.f2pool.com/">https://www.f2pool.com</a></td>
@@ -214,25 +215,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</tbody>
 </table>
 
-<p>ПЕРЕХОД НА РЕЗЕРВНЫЙ СЕРВЕР ПУЛА ИЛИ НА ДРУГОЙ ПУЛ (FAILOVER)</p>
+<h2>ПЕРЕХОД НА РЕЗЕРВНЫЙ СЕРВЕР ПУЛА ИЛИ НА ДРУГОЙ ПУЛ (FAILOVER)</h2>
 
-<p>&nbsp;</p>
+
 
 <p>Используйте файлы "epools.txt" и "dpools.txt" чтобы указать дополнительные пулы. Эти файлы имеют текстовый формат, по одному пулу в строке. Будет предпринято 3 попытки соединения. Майнер разъединяет автоматически, если пул не отправляет новых заданий в течение длительного времени или отклоняет слишком много шар.</p>
 
 <p>Если первый символ строки ";" или "#" - строка будет проигнорирована.</p>
 
-<p>&nbsp;</p>
+
 
 <p>Не убирайте пробелы между параметрами и значениями - такой синтаксис этих файлов. Если нужно указать символ "," в значении параметра, используйте две запятые «,,» - это будет распознано, как одна запятая.</p>
 
-<p>Перезагрузить файлы "epools.txt" и "dpools.txt" в реальном времени можно нажатием клавиши "r".</p>
+<p class="vaz2">Перезагрузить файлы "epools.txt" и "dpools.txt" в реальном времени можно нажатием клавиши "r".</p>
 
 <p>Пул, указанный в командной строке (или файле конфигурации) - это основной пул и майнер будет пробовать вернуться на него каждые 30 минут, если ему пришлось использовать другой пул из списка.</p>
 
 <p>Если пул не указан ни в командной строке, ни в файле конфигурации - тогда первый пул из списка пулов failover будет основным.</p>
 
-<p>Вы можете изменить 30-минутный период времени на иное значение, применив опцию "-ftime", или использовать "-ftime 0" для отключения переключения на основной пул.</p>
+<p>Вы можете изменить 30-минутный период времени на иное значение, применив опцию <code>-ftime</code>, или использовать "-ftime 0" для отключения переключения на основной пул.</p>
 
 <p>Вы также можете использовать переменные окружения в файлах "epools.txt", "dpools.txt" и "config.txt". Например, определите переменную среды «WORKER» и используйте ее как «% WORKER%» в файле config.txt или в файле epools.txt.</p>
 
