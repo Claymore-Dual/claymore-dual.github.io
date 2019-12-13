@@ -697,3 +697,7 @@ top: 134px;
  #go-top {
     display: none!important;
 }
+.nobrake {
+    word-break: normal;	
+	
+}
