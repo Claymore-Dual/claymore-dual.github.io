@@ -701,3 +701,7 @@ top: 134px;
     word-break: normal;	
 	
 }
+@media (min-width: 62em)
+.responsive-table {
+    font-size: 0.8em;
+}
