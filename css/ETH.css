@@ -697,7 +697,8 @@ top: 134px;
  #go-top {
     display: none!important;
 }
-@media (min-width: 62em)
+@media (min-width: 62em){
 .responsive-table {
     font-size: 0.8em;
+}
 }
