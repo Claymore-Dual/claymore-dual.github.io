@@ -464,7 +464,7 @@ input::-moz-focus-inner {
 textarea {
   overflow: auto;
   vertical-align: top;
-      width: 100%;
+      width: 99%;
 	  	border: 1px solid #c5d1ff;
 		padding:20px 15px;
 		box-sizing:border-box;
