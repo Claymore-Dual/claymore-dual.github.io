@@ -150,7 +150,9 @@ margin: 0 auto;
 	
 right: 166px;	
 }
-
+.eth-get code {
+background-color: #6c7c93;	
+}
 	
 .eth-button:hover a, .eth-button:hover i {color:#fff;text-decoration: none;  transition: 0.1s;}
 	
