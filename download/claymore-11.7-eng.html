@@ -127,10 +127,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="eth-vi2">
 <H1 class="eth-title"><a id="start">What's new in Claymore's Dual Ethereum AMD+NVIDIA GPU Miner v11.7</a></h1>
 <ul>
-	<li>fixed issue with missed GPU temperatures when miner is started via Remote Desktop Connection (RDC).</li>
-	<li>Linux version: removed libcurl library dependency.</li>
-	<li>added <code>-showdiff</code> option.</li>
-	<li>a few minor bug fixes and improvements.</li>
+  <li>added temperature management and overclock support for recent Nvidia cards in Windows: <code>-tt</code>, <code>-powlim</code>, <code>-cclock</code>, <code>-mclock</code>, <code>-tt</code>, <code>-fanmax</code>, <code>-fanmin</code> options are supported for Nvidia too.</li>
+  <li>now <code>y</code> key also disables CrossFire.</li>
+  <li>added <code>-y</code> option.</li>
+  <li>fixed issue with miner restart that was required sometimes to apply overclock settings for AMD cards.</li>
+  <li>fixed issue with rejected shares when <code>-esm 3</code> option is used.</li>
+  <li>Linux version: fixed issue with remote management.</li>
+  <li>some changes in watchdog routines to improve ability to restart miner after various OpenCL fails.</li>
+  <li>a few minor bug fixes and improvements.</li>
 </ul>
 
 
