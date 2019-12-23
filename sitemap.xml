@@ -385,14 +385,26 @@
       <priority>.5</priority>
 </url>
 <url>
+      <loc>https://claymoredualminer.com/claymore-11.7</loc>
+      <lastmod>2019-12-23</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
+      <loc>https://claymoredualminer.com/claymore-11.7-eng</loc>
+      <lastmod>2019-12-23</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>.5</priority>
+</url>
+<url>
       <loc>https://claymoredualminer.com/claymore-11.8</loc>
-      <lastmod>2019-12-16</lastmod>
+      <lastmod>2019-12-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
 <url>
       <loc>https://claymoredualminer.com/claymore-11.8-eng</loc>
-      <lastmod>2019-12-16</lastmod>
+      <lastmod>2019-12-23</lastmod>
       <changefreq>weekly</changefreq>
       <priority>.5</priority>
 </url>
