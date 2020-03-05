@@ -126,17 +126,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <p>Ошибка переводится как "Недостаточно памяти видеокарты для размещения DAG файла, вы не можете добыть эту монету с этой видеокартой"</p>
 
-<p>For video cards with 4 GB of video memory, the problem is that the size of the DAG file is already getting too large.</p>
+<p>Для видеокарт с 4 ГБ видеопамяти проблема заключается в том, что размер файла DAG уже становится слишком большим.</p>
 
-<p>The Windows 10 operating system takes up about 0.5 GB of video memory, and the DAG file is already too large, and programs start taking memory from the system memory, so the speed slows down from 27-28 to 19-20 Mh/s. Or you see an error: “not enough GPU memory to place DAG, you cannot mine this coin with this GPU”.</p>
+<p>Операционная система Windows 10 занимает около 0,5 ГБ видеопамяти, а файл DAG уже слишком велик, и программы начинают извлекать память из системной памяти, поэтому скорость замедляется с 27-28 до 19-20 Mh/s. Или вы увидите ошибку: «Not enough GPU memory to place DAG, you cannot mine this coin with this GPU».</p>
 
-<p>In theory, cards with 4 GB should stop mining (eth) on December 10, 2020, but in practice this will happen much earlier.</p>
+<p>Теоретически, карты с 4 ГБ должны прекратить майнинг (eth) 10 декабря 2020 года, но на практике это произойдет намного раньше.</p>
 
-<H2>How to fix DAG size problem?</H2>
+<H2>Как исправить проблему с размером DAG?</H2>
 
-<p>Step 1 - Reduce the reserved amount of VRAM using the integrated graphics, either with a dummy card.</p>
+<p>Шаг 1 - Уменьшите зарезервированное количество VRAM, используя встроенную графику, либо с помощью дополнительной самой дешевой карты.</p>
 
-<p>Example:</p>
+<p>Пример:</p>
 <p>
 <a href="items/start/how/hdmi.jpg" target="_blank">
 <img src="items/start/how/hdmi.jpg" alt="hdmi"></a>
@@ -145,7 +145,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <p>Step 2 - add command <code>-eres 0</code> in start.bat</p>
 
-<p>Example:</p>
+<p>Пример:</p>
 <p>
 <a href="items/start/how/eres-claymore-dag-file.png" target="_blank">
 <img src="items/start/how/eres-claymore-dag-file.png" alt="eres"></a>
@@ -153,7 +153,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <p>Step 3 - You can use a 8GB gpu along with your 4GB gpus. Basically put it in the PCIe 0 slot which is the main x16 PCIe 3.0 slot (usually the highest x16 slot in the motherboard except for x1/x4 slots) and you can put the rest of your 4GB gpus in the other slots.</p>
 
-<p>Example:</p>
+<p>Пример:</p>
 <p>
 <a href="items/start/how/8gb_card.jpg" target="_blank">
 <img src="items/start/how/8gb_card.jpg" alt="8gb_card"></a>
@@ -162,7 +162,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <p>Step 4 - One solution is to install older versions of the driver that allocate less vRAM as commented version 375.57. Or use linux that doesn't allocate as much memory and there will still be some time left for your 4GB card by mining ethereum. On Linux 4GB cards will work longer until reaching the DAG limitation. <a href="https://ubuntu.com/tutorials/tutorial-install-ubuntu-desktop#1-overview" rel="nofollow noopener" class="ext" target="_blank">How to Download &amp; Install Linux (Ubuntu)<span class="ext" aria-label="(link is external)"></span></a></p>
 
-<p>Example:</p>
+<p>Пример:</p>
 <p>
 <a href="items/start/how/ubuntu.png" target="_blank">
 <img src="items/start/how/ubuntu.png" alt="ubuntu"></a>
@@ -170,7 +170,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <p>Step 5 - Update the software (Claymore Dual Miner). On Claymore bundle of 1 8Gb + the remaining 4 GB will work up to 377 epoch.</p>
 
-<p>Example:</p>
+<p>Пример:</p>
 <p>
 <a href="items/start/how/update-claymore.png" target="_blank">
 <img src="items/start/how/update-claymore.png" alt="update-claymore"></a>
@@ -178,7 +178,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <p>Step 6 - Mine other coins - after a 4 GB dump, one of the Ethash coins will take the place of ETH and ETC. The main coin for Ethash, of course,  is Ethereum. However, there are many others:  QuarkChain, Metaverse, Callisto, Expanse, Dubaicoin, Soil, etc. <a href="https://claymoredualminer.com/1063#download">Ethash coins</a></p>
 
-<p>Example:</p>
+<p>Пример:</p>
 <p>
 <a href="items/start/how/dag-coins.png" target="_blank">
 <img src="items/start/how/dag-coins.png" alt="dag-coins"></a>
