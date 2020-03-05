@@ -141,7 +141,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <img src="items/start/how/hdmi.jpg" alt="hdmi"></a>
 </p>
 
-<p>Step 2 - You can use a 8GB gpu along with your 4GB gpus. Basically put it in the PCIe 0 slot which is the main x16 PCIe 3.0 slot (usually the highest x16 slot in the motherboard except for x1/x4 slots) and you can put the rest of your 4GB gpus in the other slots.</p>
+
+<p>Step 2 - add command <code>-eres 0</code> in start.bat</p>
+
+<p>Example:</p>
+<p>
+<a href="items/start/how/eres-claymore-dag-file.png" target="_blank">
+<img src="items/start/how/eres-claymore-dag-file.png" alt="eres"></a>
+</p>
+
+<p>Step 3 - You can use a 8GB gpu along with your 4GB gpus. Basically put it in the PCIe 0 slot which is the main x16 PCIe 3.0 slot (usually the highest x16 slot in the motherboard except for x1/x4 slots) and you can put the rest of your 4GB gpus in the other slots.</p>
 
 <p>Example:</p>
 <p>
@@ -149,14 +158,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <img src="items/start/how/8gb_card.jpg" alt="8gb_card"></a>
 </p>
 
-
-<p>Step 3 - add command <code>-eres 0</code> in start.bat</p>
-
-<p>Example:</p>
-<p>
-<a href="items/start/how/eres-claymore-dag-file.png" target="_blank">
-<img src="items/start/how/eres-claymore-dag-file.png" alt="eres"></a>
-</p>
 
 <p>Step 4 - One solution is to install older versions of the driver that allocate less vRAM as commented version 375.57. Or use linux that doesn't allocate as much memory and there will still be some time left for your 4GB card by mining ethereum. On Linux 4GB cards will work longer until reaching the DAG limitation. <a href="https://ubuntu.com/tutorials/tutorial-install-ubuntu-desktop#1-overview" rel="nofollow noopener" class="ext" target="_blank">How to Download &amp; Install Linux (Ubuntu)<span class="ext" aria-label="(link is external)"></span></a></p>
 
